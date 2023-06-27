@@ -1,6 +1,8 @@
 import Marquee from "react-fast-marquee"
 
 import "./skills.scss"
+import data from "./skills.json"
+import { skillsImage } from "./skillsImage"
 
 const Skills = () => {
     return (
@@ -19,11 +21,11 @@ const Skills = () => {
                         play={true}
                         direction="left"
                     >
-                        {[1, 2, 3, 4, 5].map((skill, id) => (
-                            <div className="skill--box" key={id} >
-                                {/* <img src={skillsImage(skill)} alt={skill} /> */}
+                        {data.map((skill, index) => (
+                            <div className="skill--box" key={index} >
+                                <img src={skillsImage(skill.image)} alt={skill.name} />
                                 <h3 style={{ color: "#1e1e1e" }}>
-                                    {skill}
+                                    {skill.name}
                                 </h3>
                             </div>
                         ))}

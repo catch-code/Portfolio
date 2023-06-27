@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Java",
+        "image": "Java"
+    },
+    {
+        "name": "Dart",
+        "image": "Dart"
+    },
+    {
+        "name": "Flutter",
+        "image": "Flutter"
+    },
+    {
+        "name": "Figma",
+        "image": "Figma"
+    },
+    {
+        "name": "JavaScript",
+        "image": "JavaScript"
+    },
+    {
+        "name": "TypeScript",
+        "image": "TypeScript"
+    },
+    {
+        "name": "Truffle",
+        "image": "Truffle"
+    },
+    {
+        "name": "Angular",
+        "image": "Angular"
+    },
+    {
+        "name": "React JS",
+        "image": "React"
+    },
+    {
+        "name": "MySQL",
+        "image": "MySQL"
+    },
+    {
+        "name": "Git",
+        "image": "Git"
+    },
+    {
+        "name": "GraphQL",
+        "image": "GraphQL"
+    }
+]
