@@ -1,10 +1,10 @@
-import "./App.css";
+import "./App.css"
+import Skills from "./components/skills/skills"
 
-function App() {
+const App = () => {
   return <>
-    
-   
-  </>;
+    <Skills />
+  </>
 }
 
-export default App;
+export default App
