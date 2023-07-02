@@ -1,50 +1,50 @@
 [
     {
         "name": "Java",
-        "image": "Java"
+        "image": "java"
     },
     {
         "name": "Dart",
-        "image": "Dart"
+        "image": "dart"
     },
     {
         "name": "Flutter",
-        "image": "Flutter"
+        "image": "flutter"
     },
     {
         "name": "Figma",
-        "image": "Figma"
+        "image": "figma"
     },
     {
         "name": "JavaScript",
-        "image": "JavaScript"
+        "image": "javascript"
     },
     {
         "name": "TypeScript",
-        "image": "TypeScript"
+        "image": "typescript"
     },
     {
         "name": "Truffle",
-        "image": "Truffle"
+        "image": "truffle"
     },
     {
         "name": "Angular",
-        "image": "Angular"
+        "image": "angular"
     },
     {
         "name": "React JS",
-        "image": "React"
+        "image": "react"
     },
     {
         "name": "MySQL",
-        "image": "MySQL"
+        "image": "mysql"
     },
     {
         "name": "Git",
-        "image": "Git"
+        "image": "git"
     },
     {
         "name": "GraphQL",
-        "image": "GraphQL"
+        "image": "graphql"
     }
 ]
