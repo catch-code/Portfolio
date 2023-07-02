@@ -5,12 +5,16 @@ import "./App.css"
 import Skills from "./components/skills/skills"
 import Contact from "./components/contact/contact"
 import Footer from "./components/footer/footer"
+import WhatWeDo from "./components/whatWeDo/WhatWeDo"
+import Banner from "./components/banner/Banner"
 
 import { skills } from "./components/skills/skillImages"
 
 const App = () => {
   return <div className="app">
     <AppProvider>
+      <Banner />
+      <WhatWeDo />
       <Skills />
       <Contact />
       <Footer />

@@ -1,0 +1,36 @@
+.banner {
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    .textContent {
+        display: flex;
+        width: 597px;
+        flex-direction: column;
+        flex-shrink: 0;
+
+        h2 {
+            color: #05192D;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        >div {
+            display: flex;
+            width: 478px;
+            flex-direction: column;
+            flex-shrink: 0;
+            h4 {
+                color: rgba(5, 25, 45, 0.90);
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+
+      
+    }
+}
