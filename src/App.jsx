@@ -7,12 +7,14 @@ import Contact from "./components/contact/contact"
 import Footer from "./components/footer/footer"
 import WhatWeDo from "./components/whatWeDo/WhatWeDo"
 import Banner from "./components/banner/Banner"
+import Header from "./components/navbar/Header"
 
 import { skills } from "./components/skills/skillImages"
 
 const App = () => {
   return <div className="app">
     <AppProvider>
+      <Header />
       <Banner />
       <WhatWeDo />
       <Skills />

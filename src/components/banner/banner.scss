@@ -1,13 +1,23 @@
 .banner {
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    color: white;
+    position: relative;
+    z-index: 1;
+    .els {
+        width: 1053px;
+        height: 1053px;
+        flex-shrink: 0;
+        border-radius: 1053px;
+        background: #FFF;
+        position: absolute;
+        top: -80%;
+        left: -7%;
+        z-index: -1;
+    }
 
     .textContent {
         display: flex;
-        width: 597px;
         flex-direction: column;
-        flex-shrink: 0;
 
         h2 {
             color: #05192D;
@@ -19,9 +29,8 @@
 
         >div {
             display: flex;
-            width: 478px;
             flex-direction: column;
-            flex-shrink: 0;
+
             h4 {
                 color: rgba(5, 25, 45, 0.90);
                 font-size: 25px;
@@ -31,6 +40,6 @@
             }
         }
 
-      
+
     }
 }

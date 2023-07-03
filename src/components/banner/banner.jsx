@@ -2,9 +2,9 @@ import homeBanner from "../../assets/imgs/homeBanner.gif";
 import "./banner.scss";
 function Banner() {
   return (
-    <div className="row banner">
-        <div className="ellipis"></div>
-      <div className="col-6">
+    <div className="row banner" id="home">
+        <div className="els"></div>
+      <div className="col-5" >
         <div className="textContent">
           <h2>Developing your system right now !</h2>
           <div>
@@ -15,7 +15,7 @@ function Banner() {
           </div>
         </div>
       </div>
-      <div className="col-6">
+      <div className="col-4">
         <img src={homeBanner} alt="manworking" />
       </div>
     </div>

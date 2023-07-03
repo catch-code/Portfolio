@@ -6,7 +6,7 @@ import { skillImage } from "./skillImages"
 
 const Skills = () => {
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
             <div className="skillsHeader">
                 <h2>Technologies we use</h2>
             </div>

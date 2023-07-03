@@ -4,9 +4,8 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    padding: 6rem 4rem;
     color: #fff;
-
+margin-top: 10rem;
     h4 {
         color: #fff;
         font-weight: 500;
@@ -118,7 +117,6 @@
         }
 
         .leftImage {
-            width: fit-content;
         }
     }
 }
