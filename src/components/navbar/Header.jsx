@@ -3,7 +3,7 @@ import "./navbar.scss";
 import home from "../../assets/imgs/Ellipse.png";
 function Header() {
   return (
-    <Navbar className="header">
+    <Navbar className="header" expand="md">
       <Container>
         <Navbar.Brand href="/">
           <img src={home} alt="home" />
@@ -17,19 +17,6 @@ function Header() {
             <Nav.Link href="#services">services</Nav.Link>
             <Nav.Link href="#skills">skills</Nav.Link>
             <Nav.Link href="#contact">contact us</Nav.Link>
-            <Nav.Link
-              href="#"
-              className="login"
-              style={{
-                background: "transparent",
-                border: "2px solid #66BB87",
-              }}
-            >
-              sign up
-            </Nav.Link>
-            <Nav.Link href="#" className="login">
-              log in
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

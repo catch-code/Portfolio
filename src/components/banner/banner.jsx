@@ -4,7 +4,7 @@ function Banner() {
   return (
     <div className="row banner" id="home">
         <div className="els"></div>
-      <div className="col-5" >
+      <div className="col-lg-5 col-12" >
         <div className="textContent">
           <h2>Developing your system right now !</h2>
           <div>
@@ -15,7 +15,7 @@ function Banner() {
           </div>
         </div>
       </div>
-      <div className="col-4">
+      <div className="col-lg-4 col-12">
         <img src={homeBanner} alt="manworking" />
       </div>
     </div>

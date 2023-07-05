@@ -91,10 +91,10 @@ function WhatWeDo() {
       <h2>What WE do</h2>
       <h4>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</h4>
       <div className="fullstack row">
-        <div className="leftImage col-4">
+        <div className="leftImage col-lg-4 col-12">
           <img src={banner} alt="manworking" />
         </div>
-        <div className="rightSkills col-5">
+        <div className="rightSkills col-12 col-lg-5">
           <h3>Full Stack Development</h3>
 
           <div>
