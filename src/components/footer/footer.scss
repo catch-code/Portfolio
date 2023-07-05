@@ -1,5 +1,4 @@
 footer {
-    background-color: #ffffff;
 
     .top {
 
@@ -8,9 +7,82 @@ footer {
             .logo {
 
                 img {
-                    width: 60px;
+                    width: 45%;
                 }
             }
+
+            p {
+                color: #05192de6;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
         }
+
+        div {
+            h3 {
+                color: #05192D;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+            }
+
+            p {
+                color: #05192D;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            form {
+                input {
+                    border-radius: 22px;
+                    border: 1px solid var(--neutral-400, #D9DBE9);
+
+                    /* General/Shadow 02 */
+                    box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+
+                    color: var(--neutral-600, #6F6C90);
+
+                    /* Text Single/100/Regular */
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 18px;
+                }
+
+                button {
+                    justify-content: center;
+                    align-items: center;
+                    gap: 4px;
+
+                    border-radius: 15px;
+                    background: #05192D;
+
+                    /* Text Single/100/Bold */
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 18px;
+                }
+            }
+
+            .neutral-600 {
+                color: #6F6C90;
+            }
+        }
+    }
+
+    .down {
+        color: #05192D;
+
+        /* Paragraph/Default */
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
     }
 }

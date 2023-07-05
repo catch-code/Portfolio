@@ -16,7 +16,7 @@ function Header() {
             <Nav.Link href="#home">home</Nav.Link>
             <Nav.Link href="#services">services</Nav.Link>
             <Nav.Link href="#skills">skills</Nav.Link>
-            <Nav.Link href="#contact us">contact us</Nav.Link>
+            <Nav.Link href="#contact">contact us</Nav.Link>
             <Nav.Link
               href="#"
               className="login"
