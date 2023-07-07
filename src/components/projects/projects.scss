@@ -1,0 +1,68 @@
+.projects {
+    padding: 4rem 0;
+
+    >div h2 {
+        font-family: sans-serif;
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.5rem;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .X-shape {
+        position: relative;
+        width: 348px;
+        height: 447px;
+        border-radius: 30px;
+        .rotate1 {
+            transition: all .3s linear;
+            -webkit-transition: all .3s linear;
+            -moz-transition: all .3s linear;
+            -ms-transition: all .3s linear;
+            -o-transition: all .3s linear;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 406px;
+            height: 521px;
+            transform: rotate(-2.343deg);
+            border-radius: 30px;
+            background: rgba(217, 217, 217, 0.20);
+        }
+
+        .rotate2 {
+            transition: all .3s linear;
+            -webkit-transition: all .3s linear;
+            -moz-transition: all .3s linear;
+            -ms-transition: all .3s linear;
+            -o-transition: all .3s linear;
+            width: 406px;
+            height: 521px;
+            transform: rotate(8.242deg);
+            flex-shrink: 0;
+            border-radius: 30px;
+            background: rgba(217, 217, 217, 0.20);
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+.projects .X-shape:hover .rotate1 {
+    transform: rotate(8.242deg);
+    -webkit-transform: rotate(8.242deg);
+    -moz-transform: rotate(8.242deg);
+    -ms-transform: rotate(8.242deg);
+    -o-transform: rotate(8.242deg);
+}
+
+.projects .X-shape:hover .rotate2 {
+    transform: rotate(-2.343deg);
+    -webkit-transform: rotate(-2.343deg);
+    -moz-transform: rotate(-2.343deg);
+    -ms-transform: rotate(-2.343deg);
+    -o-transform: rotate(-2.343deg);
+}
