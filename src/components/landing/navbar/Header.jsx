@@ -8,8 +8,8 @@ function Header() {
         <Navbar.Brand href="/">
           <img src={home} alt="home" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="navbar-toggler-icon "></span>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-white">
+          <span className="navbar-toggler-icon bg-white"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
