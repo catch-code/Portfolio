@@ -137,7 +137,7 @@ function Services() {
   ];
 
   return (
-    <div className="services">
+    <div id="services" className="services">
       <h2>Our Services</h2>
       {/* <h4>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</h4> */}
       {/* fulltack */}

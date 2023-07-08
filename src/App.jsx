@@ -9,7 +9,6 @@ import Services from "./components/landing/services/services";
 import Banner from "./components/landing/banner/banner";
 import Header from "./components/landing/navbar/Header";
 
-import { skills } from "./components/landing/skills/skillImages";
 import Projects from "./components/landing/projects/Projects";
 
 const App = () => {
@@ -23,8 +22,6 @@ const App = () => {
         <Projects />
         <Contact />
         <Footer />
-
-       
       </AppProvider>
     </div>
   );
