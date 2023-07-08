@@ -1,6 +1,6 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./navbar.scss";
-import home from "../../assets/imgs/Ellipse.png";
+import home from "../../../assets/imgs/Ellipse.png";
 function Header() {
   return (
     <Navbar className="header" expand="md">
@@ -16,8 +16,8 @@ function Header() {
             <Nav.Link href="#home">home</Nav.Link>
             <Nav.Link href="#services">services</Nav.Link>
             <Nav.Link href="#skills">skills</Nav.Link>
-            <Nav.Link href="#contact">contact us</Nav.Link>
             <Nav.Link href="#projects">projects</Nav.Link>
+            <Nav.Link href="#contact">contact us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

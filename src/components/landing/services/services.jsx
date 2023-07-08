@@ -1,8 +1,9 @@
-import "./whatwedo.scss";
-import banner from "../../assets/imgs/aaa.gif";
+import "./services.scss";
+import banner from "../../../assets/imgs/aaa.gif";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { skillImage } from "../skills/skillImages";
-function WhatWeDo() {
+
+function Services() {
   const skills = [
     {
       name: "HTML-5",
@@ -134,10 +135,11 @@ function WhatWeDo() {
       id: 5,
     },
   ];
+
   return (
-    <div className="whatwedo">
-      <h2>What WE do</h2>
-      <h4>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</h4>
+    <div className="services">
+      <h2>Our Services</h2>
+      {/* <h4>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</h4> */}
       {/* fulltack */}
       <div className="fullstack row">
         <div className="leftImage col-lg-4 col-12">
@@ -241,4 +243,4 @@ function WhatWeDo() {
   );
 }
 
-export default WhatWeDo;
+export default Services;

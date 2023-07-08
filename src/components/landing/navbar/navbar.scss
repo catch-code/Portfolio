@@ -1,8 +1,9 @@
 .header {
-    position: fixed;
+    position: sticky;
     top: 0;
+    box-shadow: 2px -8px 20px 8px #ccc;
     left: 0;
-    background: #0000001c;
+    background: rgba(0, 0, 0, 0.7098039216);
     width: 100%;
     z-index: 999999999;
 
