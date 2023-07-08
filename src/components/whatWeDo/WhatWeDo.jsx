@@ -1,9 +1,8 @@
-import "./services.scss";
-import banner from "../../../assets/imgs/aaa.gif";
+import "./whatwedo.scss";
+import banner from "../../assets/imgs/aaa.gif";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { skillImage } from "../skills/skillImages";
-
-function Services() {
+function WhatWeDo() {
   const skills = [
     {
       name: "HTML-5",
@@ -100,7 +99,7 @@ function Services() {
     {
       name: "Nginx",
       icon: "nginx",
-      id: 9,
+      id: 9,  
     },
     {
       name: "Sentry",
@@ -135,17 +134,16 @@ function Services() {
       id: 5,
     },
   ];
-
   return (
-    <div id="services" className="services">
-      <h2>Our Services</h2>
-      {/* <h4>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</h4> */}
+    <div className="whatwedo">
+      <h2>What WE do</h2>
+      <h4>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</h4>
       {/* fulltack */}
       <div className="fullstack row">
-        <div className="leftImage col-lg-4 col-10">
+        <div className="leftImage col-lg-4 col-12">
           <img src={banner} alt="manworking" />
         </div>
-        <div className="rightSkills col-10 col-lg-5">
+        <div className="rightSkills col-12 col-lg-5">
           <h3>Full Stack Development</h3>
 
           <div>
@@ -169,7 +167,7 @@ function Services() {
       </div>
       {/* cloud */}
       <div className="fullstack row">
-        <div className="rightSkills col-10 col-lg-5">
+        <div className="rightSkills col-12 col-lg-5">
           <h3>Cloud Infra-Architecture</h3>
 
           <div>
@@ -194,16 +192,16 @@ function Services() {
             </p>
           </div>
         </div>
-        <div className="leftImage col-lg-4 col-10">
+        <div className="leftImage col-lg-4 col-12">
           <img src={banner} alt="manworking" />
         </div>
       </div>
       {/* blockchain */}
       <div className="fullstack row">
-        <div className="leftImage col-lg-4 col-10">
+        <div className="leftImage col-lg-4 col-12">
           <img src={banner} alt="manworking" />
         </div>
-        <div className="rightSkills col-10 col-lg-5">
+        <div className="rightSkills col-12 col-lg-5">
           <h3>Blockchain</h3>
 
           <div>
@@ -243,4 +241,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default WhatWeDo;
