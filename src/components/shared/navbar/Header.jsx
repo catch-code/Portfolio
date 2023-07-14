@@ -1,6 +1,7 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./navbar.scss";
 import home from "../../../assets/imgs/Ellipse.png";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <Navbar className="header" expand="md">

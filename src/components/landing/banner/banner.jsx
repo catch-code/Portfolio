@@ -2,7 +2,7 @@ import homeBanner from "../../../assets/imgs/homeBanner.gif";
 import "./banner.scss";
 function Banner() {
   return (
-    <div className="container  banner" id="home">
+    <div className="container banner" id="home">
       <div className="els"></div>
 
       <div className="row align-items-center justify-content-between">

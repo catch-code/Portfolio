@@ -8,6 +8,19 @@ export const AppReducer = (state, action) => {
                 theme: action.payload
             }
 
+        case appActionType.NAVIGATE_TO_PROJECT:
+            return {
+                ...state,
+                category: action.payload
+            }
+
+
+        case appActionType.CHANGE_PROJECTS:
+            return {
+                ...state,
+                projects: action.payload
+            }
+
         default:
             return state
     }

@@ -1,7 +1,7 @@
-import "./services.scss";
-import banner from "../../../assets/imgs/aaa.gif";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { skillImage } from "../skills/skillImages";
+import "./services.scss"
+import banner from "../../../assets/imgs/aaa.gif"
+import "bootstrap/dist/css/bootstrap.min.css"
+import { skillImage } from "../skills/skillImages"
 
 function Services() {
   const skills = [
@@ -55,7 +55,7 @@ function Services() {
       icon: "th",
       id: 10,
     },
-  ];
+  ]
   const cloud = [
     {
       name: "AWS",
@@ -107,7 +107,7 @@ function Services() {
       icon: "Sentry",
       id: 10,
     },
-  ];
+  ]
   const Blockchain = [
     {
       name: "Ethereum",
@@ -134,7 +134,7 @@ function Services() {
       icon: "Ganache",
       id: 5,
     },
-  ];
+  ]
 
   return (
     <div id="services" className="services">
@@ -155,7 +155,7 @@ function Services() {
                   <img src={skillImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
-              );
+              )
             })}
           </div>
           <div className="text">
@@ -171,7 +171,6 @@ function Services() {
       <div className="fullstack row ">
         <div className="rightSkills col-10 col-lg-5">
           <h3>Cloud Infra-Architecture</h3>
-
           <div>
             {cloud.map(({ name, icon, id }) => {
               return (
@@ -179,7 +178,7 @@ function Services() {
                   <img src={skillImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
-              );
+              )
             })}
           </div>
           <div className="text">
@@ -205,7 +204,6 @@ function Services() {
         </div>
         <div className="rightSkills col-10 col-lg-5">
           <h3>Blockchain</h3>
-
           <div>
             {Blockchain.map(({ name, icon, id }) => {
               return (
@@ -213,7 +211,7 @@ function Services() {
                   <img src={skillImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
-              );
+              )
             })}
           </div>
           <div className="text">
@@ -240,7 +238,7 @@ function Services() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Services;
+export default Services

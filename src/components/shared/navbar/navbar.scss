@@ -2,9 +2,9 @@
     padding: 0;
     position: sticky;
     top: 0;
-    box-shadow: 2px -8px 20px 8px #cccccc;
+    box-shadow: 2px -8px 20px 8px #222222;
     left: 0;
-    background: #000000b5;
+    background: #eeeeee;
     width: 100%;
     z-index: 999999999;
 
@@ -15,7 +15,7 @@
     a.nav-link {
         font-size: 22px;
         font-weight: 600;
-        color: white;
+        color: #000;
         text-transform: capitalize;
         margin: 0 5px;
     }
