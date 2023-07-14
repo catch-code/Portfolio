@@ -126,3 +126,8 @@
         .leftImage {}
     }
 }
+@media (max-width: 392px) {
+    .fullstack:nth-child(3){
+        flex-direction: column-reverse !important;
+    }
+}

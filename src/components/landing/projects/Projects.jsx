@@ -8,7 +8,7 @@ function Projects() {
       <div>
         <h2>Projects we did</h2>
       </div>
-      <div className="row align-content-center justify-content-between flex-wrap my-5 ">
+      <div className="row align-items-center justify-content-between my-5 ">
         <div className="col-3 X-shape">
           <div className="image">
             <Link to="/projects">

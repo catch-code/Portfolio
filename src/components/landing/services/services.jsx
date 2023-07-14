@@ -168,7 +168,7 @@ function Services() {
         </div>
       </div>
       {/* cloud */}
-      <div className="fullstack row">
+      <div className="fullstack row ">
         <div className="rightSkills col-10 col-lg-5">
           <h3>Cloud Infra-Architecture</h3>
 
