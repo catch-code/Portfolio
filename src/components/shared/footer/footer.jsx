@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="logo">
                         <img src={logo} alt="Cach Code" />
                     </div>
-                    <p>You can easily order your system in any field and our team will design and develop it in a creative way</p>
+                    <p className="mt-3">You can easily order your system in any field and our team will design and develop it in a creative way</p>
                 </div>
                 <div className="mt-5 col-12 col-lg-2">
                     <h3 className="my-3">Sections</h3>
