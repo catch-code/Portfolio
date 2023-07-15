@@ -8,7 +8,7 @@ export const AppReducer = (state, action) => {
                 theme: action.payload
             }
 
-        case appActionType.NAVIGATE_TO_PROJECT:
+        case appActionType.SET_CATEGORY:
             return {
                 ...state,
                 category: action.payload

@@ -1,6 +1,4 @@
 .projects {
-    padding: 4rem 0;
-
     >div h2 {
         font-family: sans-serif;
         color: #FFFFFF;
@@ -83,4 +81,9 @@
     -moz-transform: rotate(-2.343deg);
     -ms-transform: rotate(-2.343deg);
     -o-transform: rotate(-2.343deg);
+}
+
+#project {
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?w=1380&t=st=1689309378~exp=1689309978~hmac=ff8f5f2910e1bf8cbf7d13837c86fdc14bb1dcdf615245c34074b92208c09042);
 }

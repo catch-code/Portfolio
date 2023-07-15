@@ -27,13 +27,12 @@ const Contact = () => {
     }
 
     return (
-        <div id="contact" className="contact p-5 d-flex bg-white flex-column align-items-center">
+        <div id="contact" className="contact p-5 my-5 d-flex bg-white flex-column align-items-center">
             <h3>We are Open for talking</h3>
             <h4>Fill the form below</h4>
             <Form
                 className="contact-form m-1 p-1 d-flex flex-column align-items-center"
-                onSubmit={handleSubmit}
-            >
+                onSubmit={handleSubmit}>
                 <Form.Group className="my-2 p-1 d-flex justify-content-between" controlId='nameController'>
                     <Form.Control
                         required

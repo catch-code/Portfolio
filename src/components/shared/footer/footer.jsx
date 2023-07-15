@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="footer p-3 bg-white ">
             <div className="top d-flex justify-content-evenly flex-row row">
-                <div className="catch-code col-12 col-lg-2">
+                <div className="catch-code col-12 col-lg-2 mt-3">
                     <div className="logo">
                         <img src={logo} alt="Cach Code" />
                     </div>

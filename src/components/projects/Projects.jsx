@@ -11,18 +11,17 @@ import { AppContext } from '../../context/context/app_context'
 function Projects() {
 
     const { appState, appDispatch } = useContext(AppContext)
-    const [key, setKey] = useState("")
 
-    const handleSelect = key => {
-        setKey(key)
-        console.log(key)
-    }
+    const handleSelect = (key) => appDispatch({
+        type: 'SET_CATEGORY',
+        payload: key
+    })
 
     return (
         <div id="projects" className="container projects">
             <div className='my-5 w-100'>
                 <Container>
-                    <Nav variant="pills" defaultActiveKey='uiux' onSelect={key => handleSelect(key)}>
+                    <Nav variant="pills" activeKey={appState.category} onSelect={key => handleSelect(key)}>
                         <Nav.Item>
                             <Nav.Link eventKey='uiux'>UI/UX Design</Nav.Link>
                         </Nav.Item>
@@ -43,10 +42,8 @@ function Projects() {
                         </Nav.Item>
                     </Nav>
 
-                    {/* AIzaSyBBDf9LcojGs7jyXkFEVUKfa22M_2JN0WU */}
-
-                    <Row className='my-5'>{key
-                        ? appState.projects[key].map((project, index) =>
+                    <Row className='my-5'>
+                        {appState.projects[appState.category].map((project, index) =>
                             <Col md={4} key={index}>
                                 <Card>
                                     <Card.Img variant="top" src={project.image} />
@@ -61,27 +58,12 @@ function Projects() {
                                     </Card.Body>
                                 </Card>
                             </Col>
-                        )
-                        : appState.projects["uiux"].map((project, index) =>
-                            <Col md={4} key={index}>
-                                <Card>
-                                    <Card.Img variant="top" src={project.image} />
-                                    <Card.Body>
-                                        <Card.Title>{project.title}</Card.Title>
-                                        <Card.Text>
-                                            {project.description}
-                                        </Card.Text>
-                                        <Button variant="primary" href={project.link} target="_blank" rel="noopener noreferrer">
-                                            View Project
-                                        </Button>
-                                    </Card.Body>
-                                </Card>
-                            </Col>
-                        )
-                    }</Row>
+                        )}
+                    </Row>
                 </Container>
             </div>
         </div >
     )
 }
+
 export default Projects
