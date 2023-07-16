@@ -159,7 +159,7 @@ function Services() {
               preserveAspectRatio: 'xMidYMid slice'
             }
           }}
-            height={375}
+            height={350}
             isStopped={false}
             isPaused={false} />
         </div>
@@ -210,7 +210,7 @@ function Services() {
               preserveAspectRatio: 'xMidYMid slice'
             }
           }}
-            height={375}
+            height={370}
             isStopped={false}
             isPaused={false} />
         </div>
@@ -227,7 +227,7 @@ function Services() {
               preserveAspectRatio: 'xMidYMid slice'
             }
           }}
-            height={375}
+            height={370}
             isStopped={false}
             isPaused={false} />
         </div>
@@ -278,7 +278,7 @@ function Services() {
               preserveAspectRatio: 'xMidYMid slice'
             }
           }}
-            height={375}
+            height={370}
             isStopped={false}
             isPaused={false} />
         </div>
@@ -295,7 +295,7 @@ function Services() {
               preserveAspectRatio: 'xMidYMid slice'
             }
           }}
-            height={375}
+            height={370}
             isStopped={false}
             isPaused={false} />
         </div>
@@ -346,7 +346,7 @@ function Services() {
               preserveAspectRatio: 'xMidYMid slice'
             }
           }}
-            height={375}
+            height={335}
             isStopped={false}
             isPaused={false} />
         </div>
