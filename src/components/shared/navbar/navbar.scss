@@ -1,0 +1,65 @@
+.header {
+    padding: 0;
+    position: sticky;
+    top: 0;
+    box-shadow: 2px -8px 20px 8px #222222;
+    left: 0;
+    background: #eeeeee;
+    width: 100%;
+    z-index: 999999999;
+
+    a.nav-link.active {
+        color: #66BB87;
+    }
+
+    a.nav-link {
+        font-size: 22px;
+        font-weight: 600;
+        color: #000;
+        text-transform: capitalize;
+        margin: 0 5px;
+        position: relative;
+        display: inline-block;
+
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: #66BB87;
+            transition: all .4s linear;
+            -webkit-transition: all .4s linear;
+            -moz-transition: all .4s linear;
+            -ms-transition: all .4s linear;
+            -o-transition: all .4s linear;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 2px;
+            background-color: #66BB87;
+            transition: all .4s linear;
+            -webkit-transition: all .4s linear;
+            -moz-transition: all .4s linear;
+            -ms-transition: all .4s linear;
+            -o-transition: all .4s linear;
+        }
+    }
+
+    img {
+        width: 80%;
+    }
+
+}
+
+.header a.nav-link:hover::after,
+.header a.nav-link:hover::before {
+    width: 100%;
+}

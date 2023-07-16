@@ -1,18 +1,22 @@
 .banner {
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    place-items: center;
     position: relative;
     z-index: 1;
+
     .els {
         width: 1053px;
         height: 1053px;
-        flex-shrink: 0;
-        border-radius: 1053px;
+        border-radius: 50%;
         background: #FFF;
         position: absolute;
-        top: -80%;
-        left: -7%;
+        top: -150%;
+        left: -50%;
         z-index: -1;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
     }
 
     .textContent {
@@ -23,7 +27,7 @@
             color: #05192D;
             font-size: 60px;
             font-style: normal;
-            font-weight: 700;
+            font-weight: 900;
             line-height: normal;
         }
 
@@ -42,4 +46,24 @@
 
 
     }
+}
+
+@media (max-width: 392px) {
+    .els {
+        display: none;
+    }
+
+    .banner .textContent {
+        h2 {
+            font-size: 35px;
+            color: white;
+        }
+
+        >div h4 {
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(173, 173, 173);
+        }
+    }
+
 }

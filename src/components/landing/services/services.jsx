@@ -1,7 +1,14 @@
-import "./services.scss";
-import banner from "../../../assets/imgs/aaa.gif";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { skillImage } from "../skills/skillImages";
+import "./services.scss"
+import "bootstrap/dist/css/bootstrap.min.css"
+import { toolImage } from "../tools/toolImages"
+import Lottie from "react-lottie"
+
+import MobileAnimation from "../../../assets/lottie/Mobile Development.json"
+import UIUXAnimation from "../../../assets/lottie/UI-UX Design.json"
+import FrontendAnimation from "../../../assets/lottie/Frontend Development.json"
+import BackendAnimation from "../../../assets/lottie/Backend Development.json"
+import AIAnimation from "../../../assets/lottie/AI.json"
+import TestingAnimation from "../../../assets/lottie/Testing.json"
 
 function Services() {
   const skills = [
@@ -55,7 +62,7 @@ function Services() {
       icon: "th",
       id: 10,
     },
-  ];
+  ]
   const cloud = [
     {
       name: "AWS",
@@ -107,7 +114,7 @@ function Services() {
       icon: "Sentry",
       id: 10,
     },
-  ];
+  ]
   const Blockchain = [
     {
       name: "Ethereum",
@@ -134,113 +141,218 @@ function Services() {
       icon: "Ganache",
       id: 5,
     },
-  ];
+  ]
 
   return (
-    <div className="services">
+    <div id="services" className="my-5">
       <h2>Our Services</h2>
-      {/* <h4>CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK</h4> */}
-      {/* fulltack */}
-      <div className="fullstack row">
-        <div className="leftImage col-lg-4 col-12">
-          <img src={banner} alt="manworking" />
-        </div>
-        <div className="rightSkills col-12 col-lg-5">
-          <h3>Full Stack Development</h3>
 
+      {/* UI/UX Design */}
+      <div className="service my-3 row">
+        <div className="leftImage col-lg-4 col-10">
+          <Lottie options={{
+            loop: true,
+            autoplay: true,
+            animationData: UIUXAnimation,
+            rendererSettings: {
+              preserveAspectRatio: 'xMidYMid slice'
+            }
+          }}
+            height={350}
+            isStopped={false}
+            isPaused={false} />
+        </div>
+        <div className="rightSkills col-10 col-lg-5">
+          <h3>UI/UX Design</h3>
           <div>
-            {skills.map(({ name, icon, id }) => {
-              return (
-                <div className="Rskills" key={id}>
-                  <img src={skillImage(icon)} alt="" />
-                  <div className="showingName">{name}</div>
-                </div>
-              );
-            })}
+            {skills.map(({ name, icon }, index) =>
+              <div className="Rskills" key={index}>
+                <img src={toolImage(icon)} alt="" />
+                <div className="showingName">{name}</div>
+              </div>
+            )}
           </div>
           <div className="text">
-            <p>
-              ⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js
-            </p>
+            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js</p>
             <p>⚡ Building responsive static websites using Next.js</p>
             <p>⚡ Building RESTful APIs in Django & Django REST Framework</p>
           </div>
         </div>
       </div>
-      {/* cloud */}
-      <div className="fullstack row">
-        <div className="rightSkills col-12 col-lg-5">
-          <h3>Cloud Infra-Architecture</h3>
 
+      {/* Mobile Development */}
+      <div className="service my-3 row">
+        <div className="rightSkills col-10 col-lg-5">
+          <h3>Mobile Development</h3>
           <div>
-            {cloud.map(({ name, icon, id }) => {
+            {cloud.map(({ name, icon }, index) => {
               return (
-                <div className="Rskills" key={id}>
-                  <img src={skillImage(icon)} alt="" />
+                <div className="Rskills" key={index}>
+                  <img src={toolImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
-              );
+              )
             })}
           </div>
           <div className="text">
             <p>⚡ Experience of working on multiple cloud platforms</p>
-            <p>
-              ⚡ Hosting and maintaining websites on virtual machine instances
-              along with integration of databases
-            </p>
-            <p>
-              ⚡ Building CI/CD pipelines for automated testing & deployment
-              using Github Actions
-            </p>
+            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases</p>
+            <p>⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions</p>
           </div>
         </div>
-        <div className="leftImage col-lg-4 col-12">
-          <img src={banner} alt="manworking" />
+        <div className="leftImage col-lg-4 col-10">
+          <Lottie options={{
+            loop: true,
+            autoplay: true,
+            animationData: MobileAnimation,
+            rendererSettings: {
+              preserveAspectRatio: 'xMidYMid slice'
+            }
+          }}
+            height={370}
+            isStopped={false}
+            isPaused={false} />
         </div>
       </div>
-      {/* blockchain */}
-      <div className="fullstack row">
-        <div className="leftImage col-lg-4 col-12">
-          <img src={banner} alt="manworking" />
-        </div>
-        <div className="rightSkills col-12 col-lg-5">
-          <h3>Blockchain</h3>
 
+      {/* Frontend Development */}
+      <div className="service my-3 row">
+        <div className="leftImage col-lg-4 col-10">
+          <Lottie options={{
+            loop: true,
+            autoplay: true,
+            animationData: FrontendAnimation,
+            rendererSettings: {
+              preserveAspectRatio: 'xMidYMid slice'
+            }
+          }}
+            height={370}
+            isStopped={false}
+            isPaused={false} />
+        </div>
+        <div className="rightSkills col-10 col-lg-5">
+          <h3>Frontend Development</h3>
           <div>
-            {Blockchain.map(({ name, icon, id }) => {
+            {skills.map(({ name, icon }, index) =>
+              <div className="Rskills" key={index}>
+                <img src={toolImage(icon)} alt="" />
+                <div className="showingName">{name}</div>
+              </div>
+            )}
+          </div>
+          <div className="text">
+            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js</p>
+            <p>⚡ Building responsive static websites using Next.js</p>
+            <p>⚡ Building RESTful APIs in Django & Django REST Framework</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Backend Development */}
+      <div className="service my-3 row">
+        <div className="rightSkills col-10 col-lg-5">
+          <h3>Backend Development</h3>
+          <div>
+            {cloud.map(({ name, icon }, index) => {
               return (
-                <div className="Rskills" key={id}>
-                  <img src={skillImage(icon)} alt="" />
+                <div className="Rskills" key={index}>
+                  <img src={toolImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
-              );
+              )
             })}
           </div>
           <div className="text">
-            <p>
-              ⚡ Experience in developing Smart Contract using Solidity &
-              Ethereum
-            </p>
-            <p>
-              ⚡ Building Scripts for automated testing & deployment of Smart
-              Contracts using Brownie & Infura
-            </p>
-            <p>
-              ⚡ Experience of using Openzeppelin Smart Contract Standards &
-              Chainlink Oracles
-            </p>
-            <p>
-              ⚡ Developing NFT Smart Contracts using ERC-721 Token Standard
-            </p>
-            <p>
-              ⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis
-              & IPFS
-            </p>
+            <p>⚡ Experience of working on multiple cloud platforms</p>
+            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases</p>
+            <p>⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions</p>
+          </div>
+        </div>
+        <div className="leftImage col-lg-4 col-10">
+          <Lottie options={{
+            loop: true,
+            autoplay: true,
+            animationData: BackendAnimation,
+            rendererSettings: {
+              preserveAspectRatio: 'xMidYMid slice'
+            }
+          }}
+            height={370}
+            isStopped={false}
+            isPaused={false} />
+        </div>
+      </div>
+
+      {/* Artificial Intelligence */}
+      <div className="service my-3 row">
+        <div className="leftImage col-lg-4 col-10">
+          <Lottie options={{
+            loop: true,
+            autoplay: true,
+            animationData: AIAnimation,
+            rendererSettings: {
+              preserveAspectRatio: 'xMidYMid slice'
+            }
+          }}
+            height={370}
+            isStopped={false}
+            isPaused={false} />
+        </div>
+        <div className="rightSkills col-10 col-lg-5">
+          <h3>Artificial Intelligence</h3>
+          <div>
+            {skills.map(({ name, icon }, index) =>
+              <div className="Rskills" key={index}>
+                <img src={toolImage(icon)} alt="" />
+                <div className="showingName">{name}</div>
+              </div>
+            )}
+          </div>
+          <div className="text">
+            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js</p>
+            <p>⚡ Building responsive static websites using Next.js</p>
+            <p>⚡ Building RESTful APIs in Django & Django REST Framework</p>
           </div>
         </div>
       </div>
+
+      {/* Software Testing */}
+      <div className="service my-3 row">
+        <div className="rightSkills col-10 col-lg-5">
+          <h3>Software Testing</h3>
+          <div>
+            {cloud.map(({ name, icon }, index) => {
+              return (
+                <div className="Rskills" key={index}>
+                  <img src={toolImage(icon)} alt="" />
+                  <div className="showingName">{name}</div>
+                </div>
+              )
+            })}
+          </div>
+          <div className="text">
+            <p>⚡ Experience of working on multiple cloud platforms</p>
+            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases</p>
+            <p>⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions</p>
+          </div>
+        </div>
+        <div className="leftImage col-lg-4 col-10">
+          <Lottie options={{
+            loop: true,
+            autoplay: true,
+            animationData: TestingAnimation,
+            rendererSettings: {
+              preserveAspectRatio: 'xMidYMid slice'
+            }
+          }}
+            height={335}
+            isStopped={false}
+            isPaused={false} />
+        </div>
+      </div>
+
     </div>
-  );
+  )
 }
 
-export default Services;
+export default Services

@@ -1,1 +1,3 @@
 export const CHANGE_THEME = "CHANGE_THEME"
+export const SET_CATEGORY = "SET_CATEGORY"
+export const CHANGE_PROJECTS = "CHANGE_PROJECTS"
