@@ -1,7 +1,8 @@
-import "./services.scss"
-import "bootstrap/dist/css/bootstrap.min.css"
-import { toolImage } from "../tools/toolImages"
 import Lottie from "react-lottie"
+import "bootstrap/dist/css/bootstrap.min.css"
+
+import "./services.scss"
+import { toolImage } from "../tools/toolImages"
 
 import MobileAnimation from "../../../assets/lottie/Mobile Development.json"
 import UIUXAnimation from "../../../assets/lottie/UI-UX Design.json"
