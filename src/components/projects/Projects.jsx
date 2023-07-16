@@ -1,6 +1,6 @@
 import { useContext, useState } from 'react'
 
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Ratio, Row } from 'react-bootstrap'
 import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
@@ -35,7 +35,7 @@ function Projects() {
                             <Nav.Link eventKey="backend">Backend Development</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="testing">Quality Testing</Nav.Link>
+                            <Nav.Link eventKey="testing">Software Testing</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <Nav.Link eventKey="ai">Artificial Intelligence</Nav.Link>
@@ -45,14 +45,25 @@ function Projects() {
                     <Row className='my-5'>
                         {appState.projects[appState.category].map((project, index) =>
                             <Col md={4} key={index}>
-                                <Card>
-                                    <Card.Img variant="top" src={project.image} />
+                                <Card className='raduis-5'>{
+                                    project.image
+                                        ? <Card.Img className='raduis-5' variant="top" src={project.image} />
+                                        : <Ratio aspectRatio="16x9">
+                                            <embed
+                                                title="YouTube video player"
+                                                type="image/svg+xml"
+                                                src={project.embed}
+                                                frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                allowfullscreen />
+                                        </Ratio>    
+                                }
                                     <Card.Body>
                                         <Card.Title>{project.title}</Card.Title>
                                         <Card.Text>
                                             {project.description}
                                         </Card.Text>
-                                        <Button variant="primary" href={project.link} target="_blank" rel="noopener noreferrer">
+                                        <Button variant="primary" href={project.url} target="_blank" rel="noopener noreferrer">
                                             View Project
                                         </Button>
                                     </Card.Body>
