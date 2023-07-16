@@ -1,6 +1,6 @@
 import "./services.scss"
 import "bootstrap/dist/css/bootstrap.min.css"
-import { skillImage } from "../skills/skillImages"
+import { toolImage } from "../tools/toolImages"
 import Lottie from "react-lottie"
 
 import MobileAnimation from "../../../assets/lottie/Mobile Development.json"
@@ -167,7 +167,7 @@ function Services() {
           <div>
             {skills.map(({ name, icon }, index) =>
               <div className="Rskills" key={index}>
-                <img src={skillImage(icon)} alt="" />
+                <img src={toolImage(icon)} alt="" />
                 <div className="showingName">{name}</div>
               </div>
             )}
@@ -188,7 +188,7 @@ function Services() {
             {cloud.map(({ name, icon }, index) => {
               return (
                 <div className="Rskills" key={index}>
-                  <img src={skillImage(icon)} alt="" />
+                  <img src={toolImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
               )
@@ -235,7 +235,7 @@ function Services() {
           <div>
             {skills.map(({ name, icon }, index) =>
               <div className="Rskills" key={index}>
-                <img src={skillImage(icon)} alt="" />
+                <img src={toolImage(icon)} alt="" />
                 <div className="showingName">{name}</div>
               </div>
             )}
@@ -256,7 +256,7 @@ function Services() {
             {cloud.map(({ name, icon }, index) => {
               return (
                 <div className="Rskills" key={index}>
-                  <img src={skillImage(icon)} alt="" />
+                  <img src={toolImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
               )
@@ -303,7 +303,7 @@ function Services() {
           <div>
             {skills.map(({ name, icon }, index) =>
               <div className="Rskills" key={index}>
-                <img src={skillImage(icon)} alt="" />
+                <img src={toolImage(icon)} alt="" />
                 <div className="showingName">{name}</div>
               </div>
             )}
@@ -324,7 +324,7 @@ function Services() {
             {cloud.map(({ name, icon }, index) => {
               return (
                 <div className="Rskills" key={index}>
-                  <img src={skillImage(icon)} alt="" />
+                  <img src={toolImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
               )

@@ -1,11 +1,11 @@
-.skills {
+.tools {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     padding: 2.5rem 2rem 2rem 2rem;
 
-    .skillsHeader {
+    .toolsHeader {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -20,7 +20,7 @@
         }
     }
 
-    .skillsContainer {
+    .toolsContainer {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -72,10 +72,10 @@
     }
 
     @media (min-width: 992px) and (max-width: 1380px) {
-        .skills {
+        .tools {
             padding: 2rem 1rem 1rem 1rem;
 
-            .skillsContainer {
+            .toolsContainer {
                 margin-top: 1.5rem;
             }
         }
@@ -83,15 +83,15 @@
 
 
     @media screen and (max-width: 992px) {
-        .skills {
+        .tools {
             padding: 1rem;
             min-height: 100%;
 
-            .skillsContainer {
+            .toolsContainer {
                 margin: 1rem 0;
             }
 
-            .skillsHeader {
+            .toolsHeader {
                 h2 {
                     font-size: 3.2rem;
                 }
@@ -116,10 +116,10 @@
     }
 
     @media screen and (max-width: 800px) {
-        .skills {
+        .tools {
             padding: 0.5rem;
 
-            .skillsHeader {
+            .toolsHeader {
                 h2 {
                     font-size: 3rem;
                 }
@@ -149,7 +149,7 @@
             }
         }
 
-        .skillsHeader {
+        .toolsHeader {
             h2 {
                 font-size: 2.5rem;
             }

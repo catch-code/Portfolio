@@ -1,16 +1,16 @@
 import Marquee from "react-fast-marquee"
 
-import "./skills.scss"
-import data from "./skills.json"
-import { skillImage } from "./skillImages"
+import "./tools.scss"
+import data from "./tools.json"
+import { toolImage } from "./toolImages"
 
-const Skills = () => {
+const Tools = () => {
     return (
-        <div id="skills" className="skills my-5">
-            <div className="skillsHeader">
-                <h2>Technologies we use</h2>
+        <div id="tools" className="tools my-5">
+            <div className="toolsHeader">
+                <h2>Technologies and Tools we use</h2>
             </div>
-            <div className="skillsContainer">
+            <div className="toolsContainer">
                 <div className="skill--scroll">
                     <Marquee
                         className="marquee"
@@ -24,7 +24,7 @@ const Skills = () => {
                     >
                         {data.map((skill, index) => (
                             <div className="skill--box" key={index} >
-                                <img src={skillImage(skill.image)} alt={skill.name} />
+                                <img src={toolImage(skill.image)} alt={skill.name} />
                                 <h3>{skill.name}</h3>
                             </div>
                         ))}
@@ -35,4 +35,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Tools
