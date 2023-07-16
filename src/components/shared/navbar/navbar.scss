@@ -7,21 +7,23 @@
     background: #eeeeee;
     width: 100%;
     z-index: 999999999;
+    height: 100px;
 
-    a.nav-link.active {
+    a.nav-link:hover,
+    a.nav-link.active{
         color: #66BB87;
     }
 
     a.nav-link {
         font-size: 22px;
-        font-weight: 600;
-        color: #000;
+        font-weight: 800;
+        color: #354D65;
         text-transform: capitalize;
         margin: 0 5px;
     }
-
     img {
         width: 80%;
+        padding-top: 10px;
     }
 
 }

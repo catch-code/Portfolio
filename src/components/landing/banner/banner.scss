@@ -1,31 +1,39 @@
 .banner {
+    padding-top: 250px;
     display: grid;
     place-items: center;
     position: relative;
     z-index: 1;
+    span{
+        color: #66BB87;
+    }
 
     .els {
-        width: 1053px;
-        height: 1053px;
+        width: 990px;
+        /* padding-top: 102px; */
+        height: 808px;
         border-radius: 50%;
         background: #FFF;
         position: absolute;
-        top: -150%;
-        left: -50%;
+        top: 0%;
+        left: -35%;
         z-index: -1;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-    }
 
+    }
+    .homeBanner{
+        padding-left: 100px;
+    }
     .textContent {
         display: flex;
         flex-direction: column;
 
         h2 {
             color: #05192D;
-            font-size: 60px;
+            font-size: 45px;
             font-style: normal;
             font-weight: 900;
             line-height: normal;
@@ -36,10 +44,10 @@
             flex-direction: column;
 
             h4 {
-                color: rgba(5, 25, 45, 0.90);
-                font-size: 25px;
+                color: #222;
+                font-size: 20px;
                 font-style: normal;
-                font-weight: 700;
+                font-weight: 600;
                 line-height: normal;
             }
         }
