@@ -26,7 +26,6 @@ const App = () => {
       <div className="app">
         <AppProvider>
           <Header />
-
           <Router>
             <Routes>
               <Route exact path="/" element={<Landing />} />
@@ -34,7 +33,6 @@ const App = () => {
               <Route path="*" element={() => "404 NOT FOUND"} />
             </Routes>
           </Router>
-
           <Footer />
         </AppProvider>
       </div>
