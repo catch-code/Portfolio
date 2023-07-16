@@ -24,8 +24,8 @@
         "image": "typescript"
     },
     {
-        "name": "Truffle",
-        "image": "truffle"
+        "name": "Firebase",
+        "image": "firebase"
     },
     {
         "name": "Angular",
