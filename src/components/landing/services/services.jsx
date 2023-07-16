@@ -1,5 +1,4 @@
 import "./services.scss"
-import banner from "../../../assets/imgs/aaa.gif"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { skillImage } from "../skills/skillImages"
 import Lottie from "react-lottie"
