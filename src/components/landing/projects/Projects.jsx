@@ -89,7 +89,7 @@ function Projects() {
         </div>
 
         <div className="col-3 mx-5">
-          <h3 className="text-white d-block">Quality Testing</h3>
+          <h3 className="text-white d-block">Software Testing</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
             <div className="rotate2"></div>
