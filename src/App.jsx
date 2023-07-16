@@ -11,22 +11,31 @@ import Header from "./components/landing/navbar/Header";
 
 import { skills } from "./components/landing/skills/skillImages";
 import Projects from "./components/landing/projects/Projects";
+import { useState } from "react";
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 2000);
+  }
   return (
-    <div className="app">
-      <AppProvider>
-        <Header />
-        <Banner />
-        <Services />
-        <Skills />
-        <Projects />
-        <Contact />
-        <Footer />
-
-       
-      </AppProvider>
-    </div>
+    !loading && (
+      <div className="app">
+        <AppProvider>
+          <Header />
+          <Banner />
+          <Services />
+          <Skills />
+          <Projects />
+          <Contact />
+          <Footer />
+        </AppProvider>
+      </div>
+    )
   );
 };
 
