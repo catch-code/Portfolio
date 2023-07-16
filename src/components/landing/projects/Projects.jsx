@@ -17,10 +17,11 @@ function Projects() {
   return (
     <div className="container projects my-5" id="projects">
       <div>
-        <h2>Projects we did</h2>
+        <h2>Projects We Did</h2>
       </div>
       <div className="row align-items-center justify-content-between my-5 ">
-        <div className="col-3 m-5">
+        <div className="col-4">
+          {/* why mx-5? */}
           <h3 className="text-white d-block">UI/UX Design</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
@@ -37,7 +38,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-3 mx-5">
+        <div className="col-4">
           <h3 className="text-white d-block">Mobile Development</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
@@ -54,7 +55,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-3 mx-5">
+        <div className="col-4">
           <h3 className="text-white d-block">Frontend Development</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
@@ -71,7 +72,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-3 mx-5">
+        <div className="col-4">
           <h3 className="text-white d-block">Backend Development</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
@@ -88,7 +89,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-3 mx-5">
+        <div className="col-4">
           <h3 className="text-white d-block">Quality Testing</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
@@ -105,7 +106,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-3 mx-5">
+        <div className="col-4">
           <h3 className="text-white d-block">Artificial Intelligence</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
