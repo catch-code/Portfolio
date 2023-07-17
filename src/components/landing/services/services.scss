@@ -1,4 +1,5 @@
 #services {
+    padding-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,6 +7,12 @@
     gap: 20px;
     color: #fff;
     margin-top: 10rem;
+    
+    .headerServices{
+        color: #66BB87;
+        font-weight: bold;
+        font-size: 50px;
+    }
     h4 {
         color: #fff;
         font-weight: 500;
@@ -121,7 +128,7 @@
             .text {
                 display: flex;
                 justify-content: center;
-                align-items: center;
+                align-items: flex-start;
                 flex-direction: column;
                 text-align: center;
             }

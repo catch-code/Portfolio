@@ -8,17 +8,17 @@ function Banner() {
       <div className="row align-items-center justify-content-between">
         <div className="col-lg-6 col-12">
           <div className="textContent">
-            <h2>Developing your system right now !</h2>
+            <h2><span>Developing</span> your system right now !</h2>
             <div>
               <h4>
                 You can easily order your system in any field and our team will
-                design and develop it in a creative way
+                design and develop it in a creative way.
               </h4>
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-12">
-          <img src={homeBanner} alt="manworking" />
+        <div className="col-lg-6 col-12">
+          <img className="homeBanner" src={homeBanner} alt="manworking" />
         </div>
       </div>
     </div>
