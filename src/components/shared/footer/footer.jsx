@@ -12,7 +12,7 @@ const Footer = () => {
                     </div>
                     <p className="mt-3">You can easily order your system in any field and our team will design and develop it in a creative way</p>
                 </div>
-                <div className="mt-5 col-12 col-lg-2">
+                <div className="mt-5 col-sm-6 col-lg-2">
                     <h3 className="my-3">Sections</h3>
                     <p>Full Stack Development</p>
                     <p>Mobile App Development</p>
@@ -20,17 +20,17 @@ const Footer = () => {
                     <p>AI Models</p>
                     <p>IoT</p>
                 </div>
-                <div className="mt-5 col-12 col-lg-2">
+                <div className="mt-5 col-sm-6 col-lg-2">
                     <h3 className="my-3">Activities</h3>
                     <p>Our Projects</p>
                     <p>Reviews</p>
                 </div>
-                <div className="mt-5 col-12 col-lg-2">
+                <div className="mt-5 col-sm-6 col-lg-2">
                     <h3 className="my-3">Contact Us</h3>
                     <p>catchcode.tech@gmail.com</p>
                     <p>Cairo, Egypt</p>
                 </div>
-                <div className="mt-5 col-12 col-lg-2">
+                <div className="mt-5 col-sm-6 col-lg-2">
                     <h3 className="my-3">Subscribe to our newsletter</h3>
                     <p className="neutral-600">You can subscribe to our newsletter to catch up with our news services and projects.</p>
                     <form>
@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="down mt-5">
-                <p className="mx-5">Copyright &copy; 2023 Catch Code</p>
+                <p className="">Copyright &copy; 2023 Catch Code</p>
                 <div className="social-media">
 
                 </div>

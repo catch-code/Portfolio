@@ -87,3 +87,9 @@ footer {
         line-height: 30px;
     }
 }
+@media (max-width: 768px){
+    footer .top .catch-code .logo img{
+        max-width: 100%;
+        width: 100%;
+    }
+}
