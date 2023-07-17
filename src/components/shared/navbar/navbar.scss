@@ -1,3 +1,7 @@
+.bg {
+    background: #eeeeee;
+}
+
 .header {
     padding: 0;
     position: sticky;
@@ -7,10 +11,10 @@
     background: #eeeeee;
     width: 100%;
     z-index: 999999999;
-    height: 100px;
+    height: 115px;
 
     a.nav-link:hover,
-    a.nav-link.active{
+    a.nav-link.active {
         color: #66BB87;
     }
 
@@ -54,6 +58,7 @@
             -o-transition: all .4s linear;
         }
     }
+
     img {
         width: 80%;
         padding-top: 10px;
