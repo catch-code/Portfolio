@@ -1,8 +1,9 @@
-import { Navbar, Nav, Container } from "react-bootstrap";
-import "./navbar.scss";
-import home from "../../../assets/imgs/Ellipse.png";
-import { Link } from "react-router-dom";
-function Header() {
+import { Navbar, Nav, Container } from "react-bootstrap"
+import "./navbar.scss"
+import home from "../../../assets/imgs/Ellipse.png"
+import { Link } from "react-router-dom"
+
+const Header = () => {
   return (
     <Navbar className="header" expand="md">
       <Container>
@@ -23,7 +24,7 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-  );
+  )
 }
 
-export default Header;
+export default Header

@@ -1,0 +1,234 @@
+[
+    {
+        "name": "Audition",
+        "image": "audition"
+    },
+    {
+        "name": "Gimp",
+        "image": "gimp"
+    },
+    {
+        "name": "Illustrator",
+        "image": "illustrator"
+    },
+    {
+        "name": "Lightroom",
+        "image": "lightroom"
+    },
+    {
+        "name": "Photoshop",
+        "image": "photoshop"
+    },
+    {
+        "name": "Picsart",
+        "image": "picsart"
+    },
+    {
+        "name": "Premier",
+        "image": "premier"
+    },
+    {
+        "name": "Figma",
+        "image": "figma"
+    },
+    {
+        "name": "Marvel",
+        "image": "marvel"
+    },
+    {
+        "name": "Sketch",
+        "image": "sketch"
+    },
+    {
+        "name": "Adobe XD",
+        "image": "xd"
+    },
+    {
+        "name": "Dart",
+        "image": "dart"
+    },
+    {
+        "name": "Flutter",
+        "image": "flutter"
+    },
+    {
+        "name": "Firebase",
+        "image": "firebase"
+    },
+    {
+        "name": "Iconic",
+        "image": "iconic"
+    },
+    {
+        "name": "Jave",
+        "image": "java"
+    },
+    {
+        "name": "Kotlin",
+        "image": "kotlin"
+    },
+    {
+        "name": "Objective C",
+        "image": "objective_c"
+    },
+    {
+        "name": "React Native",
+        "image": "react_native"
+    },
+    {
+        "name": "SQLite",
+        "image": "sqlite"
+    },
+    {
+        "name": "Swift",
+        "image": "swift"
+    },
+    {
+        "name": "Xamarin",
+        "image": "xamarin"
+    },
+    {
+        "name": "Angular",
+        "image": "angular"
+    },
+    {
+        "name": "Bootstrap",
+        "image": "bootstrap"
+    },
+    {
+        "name": "CSS",
+        "image": "css"
+    },
+    {
+        "name": "HTML",
+        "image": "html"
+    },
+    {
+        "name": "JaveScript",
+        "image": "javascript"
+    },
+    {
+        "name": "JQuery",
+        "image": "jquery"
+    },
+    {
+        "name": "Material UI",
+        "image": "materialui"
+    },
+    {
+        "name": "Next JS",
+        "image": "next"
+    },
+    {
+        "name": "React JS",
+        "image": "react"
+    },
+    {
+        "name": "Redux",
+        "image": "redux"
+    },
+    {
+        "name": "TypeScript",
+        "image": "typescript"
+    },
+    {
+        "name": "Vite JS",
+        "image": "vite"
+    },
+    {
+        "name": "Vue JS",
+        "image": "vue"
+    },
+    {
+        "name": "WordPress",
+        "image": "wordpress"
+    },
+    {
+        "name": "Tailwind",
+        "image": "tailwind"
+    },
+    {
+        "name": "SCSS",
+        "image": "scss"
+    },
+    {
+        "name": "DJango",
+        "image": "django"
+    },
+    {
+        "name": "ASP.NET",
+        "image": "dot_net"
+    },
+    {
+        "name": "Express JS",
+        "image": "express"
+    },
+    {
+        "name": "GO",
+        "image": "go"
+    },
+    {
+        "name": "Laravel",
+        "image": "laravel"
+    },
+    {
+        "name": "Mongo DB",
+        "image": "mongodb"
+    },
+    {
+        "name": "SQL Server",
+        "image": "mssql"
+    },
+    {
+        "name": "MySQL",
+        "image": "mysql"
+    },
+    {
+        "name": "Nest JS",
+        "image": "nest"
+    },
+    {
+        "name": "Node JS",
+        "image": "node"
+    },
+    {
+        "name": "TypeScript",
+        "image": "typescript"
+    },
+    {
+        "name": "PostgreSQL",
+        "image": "postgresql"
+    },
+    {
+        "name": "Ruby",
+        "image": "ruby"
+    },
+    {
+        "name": "Java Spring",
+        "image": "spring"
+    },
+    {
+        "name": "MatLab",
+        "image": "matlab"
+    },
+    {
+        "name": "Numpy",
+        "image": "numpy"
+    },
+    {
+        "name": "Open CV",
+        "image": "opencv"
+    },
+    {
+        "name": "Pytorch",
+        "image": "pytorch"
+    },
+    {
+        "name": "Tensorflow",
+        "image": "tensorflow"
+    },
+    {
+        "name": "Selenium",
+        "image": "selenium"
+    }
+]
