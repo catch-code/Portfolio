@@ -288,7 +288,7 @@ function Services() {
 
   return (
     <div id="services" className="my-5">
-      <h2>Our Services</h2>
+      <h2 className="headerServices">Our Services</h2>
 
       {/* Graphic Design */}
       <div className="service my-3 row">
@@ -351,9 +351,9 @@ function Services() {
             )}
           </div>
           <div className="text">
-            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js</p>
-            <p>⚡ Building responsive static websites using Next.js</p>
-            <p>⚡ Building RESTful APIs in Django & Django REST Framework</p>
+            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js.</p>
+            <p>⚡ Building responsive static websites using Next.js.</p>
+            <p>⚡ Building RESTful APIs in Django & Django REST Framework.</p>
           </div>
         </div>
       </div>
@@ -373,9 +373,9 @@ function Services() {
             })}
           </div>
           <div className="text">
-            <p>⚡ Experience of working on multiple cloud platforms</p>
-            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases</p>
-            <p>⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions</p>
+            <p>⚡ Experience of working on multiple cloud platforms.</p>
+            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases.</p>
+            <p>⚡ Building CI/CD pipelines for automated testing & deployment.</p>
           </div>
         </div>
         <div className="leftImage col-lg-4 col-10">
@@ -419,9 +419,9 @@ function Services() {
             )}
           </div>
           <div className="text">
-            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js</p>
-            <p>⚡ Building responsive static websites using Next.js</p>
-            <p>⚡ Building RESTful APIs in Django & Django REST Framework</p>
+            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js.</p>
+            <p>⚡ Building responsive static websites using Next.js.</p>
+            <p>⚡ Building RESTful APIs in Django & Django REST Framework.</p>
           </div>
         </div>
       </div>
@@ -441,9 +441,9 @@ function Services() {
             })}
           </div>
           <div className="text">
-            <p>⚡ Experience of working on multiple cloud platforms</p>
-            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases</p>
-            <p>⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions</p>
+            <p>⚡ Experience of working on multiple cloud platforms.</p>
+            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases.</p>
+            <p>⚡ Building CI/CD pipelines for automated testing & deployment using <br/>Github Actions.</p>
           </div>
         </div>
         <div className="leftImage col-lg-4 col-10">
@@ -487,9 +487,9 @@ function Services() {
             )}
           </div>
           <div className="text">
-            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js</p>
-            <p>⚡ Building responsive static websites using Next.js</p>
-            <p>⚡ Building RESTful APIs in Django & Django REST Framework</p>
+            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js.</p>
+            <p>⚡ Building responsive static websites using Next.js.</p>
+            <p>⚡ Building RESTful APIs in Django & Django REST Framework.</p>
           </div>
         </div>
       </div>
@@ -509,9 +509,9 @@ function Services() {
             })}
           </div>
           <div className="text">
-            <p>⚡ Experience of working on multiple cloud platforms</p>
-            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases</p>
-            <p>⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions</p>
+            <p>⚡ Experience of working on multiple cloud platforms.</p>
+            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases.</p>
+            <p>⚡ Building CI/CD pipelines for automated testing & deployment using <br/> Github Actions.</p>
           </div>
         </div>
         <div className="leftImage col-lg-4 col-10">
