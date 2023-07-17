@@ -1,151 +1,329 @@
-import "./services.scss"
-import "bootstrap/dist/css/bootstrap.min.css"
-import { toolImage } from "../tools/toolImages"
 import Lottie from "react-lottie"
+import "bootstrap/dist/css/bootstrap.min.css"
 
-import MobileAnimation from "../../../assets/lottie/Mobile Development.json"
+import "./services.scss"
+import { toolImage } from "../tools/toolImages"
+
+import GraphicsAnimation from "../../../assets/lottie/Graphics.json"
 import UIUXAnimation from "../../../assets/lottie/UI-UX Design.json"
+import MobileAnimation from "../../../assets/lottie/Mobile Development.json"
 import FrontendAnimation from "../../../assets/lottie/Frontend Development.json"
 import BackendAnimation from "../../../assets/lottie/Backend Development.json"
 import AIAnimation from "../../../assets/lottie/AI.json"
 import TestingAnimation from "../../../assets/lottie/Testing.json"
 
 function Services() {
-  const skills = [
+  const graphics = [
     {
-      name: "HTML-5",
-      icon: "html",
-      id: 1,
+      name: "Audition",
+      icon: "audition"
     },
     {
-      name: "CSS-3",
-      icon: "css",
-      id: 2,
+      name: "Gimp",
+      icon: "gimp"
     },
     {
-      name: "javaScript",
-      icon: "javascript",
-      id: 3,
+      name: "Illustrator",
+      icon: "illustrator"
     },
     {
-      name: "Reactjs",
-      icon: "react",
-      id: 4,
+      name: "Lightroom",
+      icon: "lightroom"
     },
     {
-      name: "Nextjs",
-      icon: "nextJS",
-      id: 5,
+      name: "Photoshop",
+      icon: "photoshop"
     },
     {
-      name: "Python",
-      icon: "python",
-      id: 6,
+      name: "Picsart",
+      icon: "picsart"
     },
     {
-      name: "Django",
-      icon: "django",
-      id: 7,
+      name: "Premier",
+      icon: "premier"
+    }
+  ]
+
+  const ui_ux = [
+    {
+      name: "Figma",
+      icon: "figma"
+    },
+    {
+      name: "Marvel",
+      icon: "marvel"
+    },
+    {
+      name: "Sketch",
+      icon: "sketch"
+    },
+    {
+      name: "Adobe XD",
+      icon: "xd"
+    }
+  ]
+
+  const mobile = [
+    {
+      name: "Dart",
+      icon: "dart"
+    },
+    {
+      name: "Flutter",
+      icon: "flutter"
+    },
+    {
+      name: "Firebase",
+      icon: "firebase"
+    },
+    {
+      name: "Iconic",
+      icon: "iconic"
+    },
+    {
+      name: "Jave",
+      icon: "java"
+    },
+    {
+      name: "Kotlin",
+      icon: "kotlin"
+    },
+    {
+      name: "Objective C",
+      icon: "objective_c"
+    },
+    {
+      name: "React Native",
+      icon: "react_native"
+    },
+    {
+      name: "SQLite",
+      icon: "sqlite"
+    },
+    {
+      name: "Swift",
+      icon: "swift"
+    },
+    {
+      name: "Xamarin",
+      icon: "xamarin"
+    },
+  ]
+
+  const frontend = [
+    {
+      name: "Angular",
+      icon: "angular"
+    },
+    {
+      name: "Bootstrap",
+      icon: "bootstrap"
+    },
+    {
+      name: "CSS",
+      icon: "css"
+    },
+    {
+      name: "HTML",
+      icon: "html"
+    },
+    {
+      name: "JaveScript",
+      icon: "javascript"
+    },
+    {
+      name: "JQuery",
+      icon: "jquery"
+    },
+    {
+      name: "Material UI",
+      icon: "materialui"
+    },
+    {
+      name: "Next JS",
+      icon: "next"
+    },
+    {
+      name: "React JS",
+      icon: "react"
     },
     {
       name: "Redux",
-      icon: "th",
-      id: 8,
+      icon: "redux"
     },
     {
-      name: "NPM",
-      icon: "th",
-      id: 9,
+      name: "TypeScript",
+      icon: "typescript"
     },
     {
-      name: "YARN",
-      icon: "th",
-      id: 10,
+      name: "Vite JS",
+      icon: "vite"
+    },
+    {
+      name: "Vue JS",
+      icon: "vue"
+    },
+    {
+      name: "WordPress",
+      icon: "wordpress"
+    },
+    {
+      name: "Tailwind",
+      icon: "tailwind"
+    },
+    {
+      name: "SCSS",
+      icon: "scss"
     },
   ]
-  const cloud = [
+
+  const backend = [
     {
-      name: "AWS",
-      icon: "aws",
-      id: 1,
+      name: "DJango",
+      icon: "django"
     },
     {
-      name: "Azure",
-      icon: "azure",
-      id: 2,
+      name: "ASP.NET",
+      icon: "dot_net"
     },
     {
-      name: "Heroku",
-      icon: "Heroku",
-      id: 3,
+      name: "Express JS",
+      icon: "express"
+    },
+    {
+      name: "GO",
+      icon: "go"
+    },
+    {
+      name: "Laravel",
+      icon: "laravel"
+    },
+    {
+      name: "Mongo DB",
+      icon: "mongodb"
+    },
+    {
+      name: "SQL Server",
+      icon: "mssql"
+    },
+    {
+      name: "MySQL",
+      icon: "mysql"
+    },
+    {
+      name: "Nest JS",
+      icon: "nest"
+    },
+    {
+      name: "Node JS",
+      icon: "node"
+    },
+    {
+      name: "TypeScript",
+      icon: "typescript"
     },
     {
       name: "PostgreSQL",
-      icon: "postgresql",
-      id: 4,
+      icon: "postgresql"
     },
     {
-      name: "Github",
-      icon: "Github",
-      id: 5,
+      name: "Ruby",
+      icon: "ruby"
     },
     {
-      name: "Docker",
-      icon: "docker",
-      id: 6,
-    },
-    {
-      name: "GithubActions",
-      icon: "GithubActions",
-      id: 7,
-    },
-    {
-      name: "Cloudinary",
-      icon: "Cloudinary",
-      id: 8,
-    },
-    {
-      name: "Nginx",
-      icon: "nginx",
-      id: 9,
-    },
-    {
-      name: "Sentry",
-      icon: "Sentry",
-      id: 10,
+      name: "Java Spring",
+      icon: "spring"
     },
   ]
-  const Blockchain = [
+
+  const ai = [
     {
-      name: "Ethereum",
-      icon: "Ethereum",
-      id: 1,
+      name: "MatLab",
+      icon: "matlab"
     },
     {
-      name: "Solidity",
-      icon: "Solidity",
-      id: 2,
+      name: "Numpy",
+      icon: "numpy"
     },
     {
-      name: "Web3js",
-      icon: "Web3js",
-      id: 3,
+      name: "Open CV",
+      icon: "opencv"
     },
     {
-      name: "Metamask",
-      icon: "Metamask",
-      id: 4,
+      name: "Pytorch",
+      icon: "pytorch"
     },
     {
-      name: "Ganache",
-      icon: "Ganache",
-      id: 5,
+      name: "Tensorflow",
+      icon: "tensorflow"
+    }
+  ]
+
+  const testing = [
+    {
+      name: "Selenium",
+      icon: "selenium"
     },
+    {
+      name: "Selenium",
+      icon: "selenium"
+    },
+    {
+      name: "Selenium",
+      icon: "selenium"
+    },
+    {
+      name: "Selenium",
+      icon: "selenium"
+    },
+    {
+      name: "Selenium",
+      icon: "selenium"
+    },
+    {
+      name: "Selenium",
+      icon: "selenium"
+    }
   ]
 
   return (
     <div id="services" className="my-5">
       <h2>Our Services</h2>
+
+      {/* Graphic Design */}
+      <div className="service my-3 row">
+        <div className="rightSkills col-10 col-lg-5">
+          <h3>Graphic Design</h3>
+          <div>
+            {graphics.map(({ name, icon }, index) => {
+              return (
+                <div className="Rskills" key={index}>
+                  <img src={toolImage(icon)} alt="" />
+                  <div className="showingName">{name}</div>
+                </div>
+              )
+            })}
+          </div>
+          <div className="text">
+            <p>⚡ Experience of working on multiple cloud platforms</p>
+            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases</p>
+            <p>⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions</p>
+          </div>
+        </div>
+        <div className="leftImage col-lg-4 col-10">
+          <Lottie options={{
+            loop: true,
+            autoplay: true,
+            animationData: GraphicsAnimation,
+            rendererSettings: {
+              preserveAspectRatio: 'xMidYMid slice'
+            }
+          }}
+            height={370}
+            isStopped={false}
+            isPaused={false} />
+        </div>
+      </div>
 
       {/* UI/UX Design */}
       <div className="service my-3 row">
@@ -165,7 +343,7 @@ function Services() {
         <div className="rightSkills col-10 col-lg-5">
           <h3>UI/UX Design</h3>
           <div>
-            {skills.map(({ name, icon }, index) =>
+            {ui_ux.map(({ name, icon }, index) =>
               <div className="Rskills" key={index}>
                 <img src={toolImage(icon)} alt="" />
                 <div className="showingName">{name}</div>
@@ -185,7 +363,7 @@ function Services() {
         <div className="rightSkills col-10 col-lg-5">
           <h3>Mobile Development</h3>
           <div>
-            {cloud.map(({ name, icon }, index) => {
+            {mobile.map(({ name, icon }, index) => {
               return (
                 <div className="Rskills" key={index}>
                   <img src={toolImage(icon)} alt="" />
@@ -233,7 +411,7 @@ function Services() {
         <div className="rightSkills col-10 col-lg-5">
           <h3>Frontend Development</h3>
           <div>
-            {skills.map(({ name, icon }, index) =>
+            {frontend.map(({ name, icon }, index) =>
               <div className="Rskills" key={index}>
                 <img src={toolImage(icon)} alt="" />
                 <div className="showingName">{name}</div>
@@ -253,7 +431,7 @@ function Services() {
         <div className="rightSkills col-10 col-lg-5">
           <h3>Backend Development</h3>
           <div>
-            {cloud.map(({ name, icon }, index) => {
+            {backend.map(({ name, icon }, index) => {
               return (
                 <div className="Rskills" key={index}>
                   <img src={toolImage(icon)} alt="" />
@@ -301,7 +479,7 @@ function Services() {
         <div className="rightSkills col-10 col-lg-5">
           <h3>Artificial Intelligence</h3>
           <div>
-            {skills.map(({ name, icon }, index) =>
+            {ai.map(({ name, icon }, index) =>
               <div className="Rskills" key={index}>
                 <img src={toolImage(icon)} alt="" />
                 <div className="showingName">{name}</div>
@@ -321,7 +499,7 @@ function Services() {
         <div className="rightSkills col-10 col-lg-5">
           <h3>Software Testing</h3>
           <div>
-            {cloud.map(({ name, icon }, index) => {
+            {testing.map(({ name, icon }, index) => {
               return (
                 <div className="Rskills" key={index}>
                   <img src={toolImage(icon)} alt="" />
