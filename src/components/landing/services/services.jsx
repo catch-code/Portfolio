@@ -1,15 +1,15 @@
-import "./services.scss"
-import banner from "../../../assets/imgs/aaa.gif"
-import "bootstrap/dist/css/bootstrap.min.css"
-import { skillImage } from "../skills/skillImages"
-import Lottie from "react-lottie"
+import "./services.scss";
+import banner from "../../../assets/imgs/aaa.gif";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { skillImage } from "../skills/skillImages";
+import Lottie from "react-lottie";
 
-import MobileAnimation from "../../../assets/lottie/Mobile Development.json"
-import UIUXAnimation from "../../../assets/lottie/UI-UX Design.json"
-import FrontendAnimation from "../../../assets/lottie/Frontend Development.json"
-import BackendAnimation from "../../../assets/lottie/Backend Development.json"
-import AIAnimation from "../../../assets/lottie/AI.json"
-import TestingAnimation from "../../../assets/lottie/Testing.json"
+import MobileAnimation from "../../../assets/lottie/Mobile Development.json";
+import UIUXAnimation from "../../../assets/lottie/UI-UX Design.json";
+import FrontendAnimation from "../../../assets/lottie/Frontend Development.json";
+import BackendAnimation from "../../../assets/lottie/Backend Development.json";
+import AIAnimation from "../../../assets/lottie/AI.json";
+import TestingAnimation from "../../../assets/lottie/Testing.json";
 
 function Services() {
   const skills = [
@@ -63,7 +63,7 @@ function Services() {
       icon: "th",
       id: 10,
     },
-  ]
+  ];
   const cloud = [
     {
       name: "AWS",
@@ -115,7 +115,7 @@ function Services() {
       icon: "Sentry",
       id: 10,
     },
-  ]
+  ];
   const Blockchain = [
     {
       name: "Ethereum",
@@ -142,7 +142,7 @@ function Services() {
       icon: "Ganache",
       id: 5,
     },
-  ]
+  ];
 
   return (
     <div id="services" className="my-5">
@@ -150,34 +150,39 @@ function Services() {
 
       {/* UI/UX Design */}
       <div className="service my-3 row">
-        <div className="leftImage col-lg-4 col-10">
-          <Lottie options={{
-            loop: true,
-            autoplay: true,
-            animationData: UIUXAnimation,
-            rendererSettings: {
-              preserveAspectRatio: 'xMidYMid slice'
-            }
-          }}
-            height={350}
-            isStopped={false}
-            isPaused={false} />
-        </div>
+        {/* text before image */}
         <div className="rightSkills col-10 col-lg-5">
           <h3>UI/UX Design</h3>
           <div>
-            {skills.map(({ name, icon }, index) =>
+            {skills.map(({ name, icon }, index) => (
               <div className="Rskills" key={index}>
                 <img src={skillImage(icon)} alt="" />
                 <div className="showingName">{name}</div>
               </div>
-            )}
+            ))}
           </div>
           <div className="text">
-            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js.</p>
+            <p>
+              ⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js.
+            </p>
             <p>⚡ Building responsive static websites using Next.js.</p>
             <p>⚡ Building RESTful APIs in Django & Django REST Framework.</p>
           </div>
+        </div>
+
+        <div className="leftImage col-lg-4 col-10">
+          <Lottie
+            options={{
+              loop: true,
+              autoplay: true,
+              animationData: UIUXAnimation,
+              rendererSettings: {
+                preserveAspectRatio: "xMidYMid slice",
+              },
+            }}
+            isStopped={false}
+            isPaused={false}
+          />
         </div>
       </div>
 
@@ -192,60 +197,70 @@ function Services() {
                   <img src={skillImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
-              )
+              );
             })}
           </div>
           <div className="text">
             <p>⚡ Experience of working on multiple cloud platforms.</p>
-            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases.</p>
-            <p>⚡ Building CI/CD pipelines for automated testing & deployment.</p>
+            <p>
+              ⚡ Hosting and maintaining websites on virtual machine instances
+              along with databases.
+            </p>
+            <p>
+              ⚡ Building CI/CD pipelines for automated testing & deployment.
+            </p>
           </div>
         </div>
         <div className="leftImage col-lg-4 col-10">
-          <Lottie options={{
-            loop: true,
-            autoplay: true,
-            animationData: MobileAnimation,
-            rendererSettings: {
-              preserveAspectRatio: 'xMidYMid slice'
-            }
-          }}
-            height={370}
+          <Lottie
+            options={{
+              loop: true,
+              autoplay: true,
+              animationData: MobileAnimation,
+              rendererSettings: {
+                preserveAspectRatio: "xMidYMid slice",
+              },
+            }}
             isStopped={false}
-            isPaused={false} />
+            isPaused={false}
+          />
         </div>
       </div>
 
       {/* Frontend Development */}
       <div className="service my-3 row">
-        <div className="leftImage col-lg-4 col-10">
-          <Lottie options={{
-            loop: true,
-            autoplay: true,
-            animationData: FrontendAnimation,
-            rendererSettings: {
-              preserveAspectRatio: 'xMidYMid slice'
-            }
-          }}
-            height={370}
-            isStopped={false}
-            isPaused={false} />
-        </div>
         <div className="rightSkills col-10 col-lg-5">
           <h3>Frontend Development</h3>
           <div>
-            {skills.map(({ name, icon }, index) =>
+            {skills.map(({ name, icon }, index) => (
               <div className="Rskills" key={index}>
                 <img src={skillImage(icon)} alt="" />
                 <div className="showingName">{name}</div>
               </div>
-            )}
+            ))}
           </div>
           <div className="text">
-            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js.</p>
+            <p>
+              ⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js.
+            </p>
             <p>⚡ Building responsive static websites using Next.js.</p>
             <p>⚡ Building RESTful APIs in Django & Django REST Framework.</p>
           </div>
+        </div>
+
+        <div className="leftImage col-lg-4 col-10">
+          <Lottie
+            options={{
+              loop: true,
+              autoplay: true,
+              animationData: FrontendAnimation,
+              rendererSettings: {
+                preserveAspectRatio: "xMidYMid slice",
+              },
+            }}
+            isStopped={false}
+            isPaused={false}
+          />
         </div>
       </div>
 
@@ -260,60 +275,70 @@ function Services() {
                   <img src={skillImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
-              )
+              );
             })}
           </div>
           <div className="text">
             <p>⚡ Experience of working on multiple cloud platforms.</p>
-            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases.</p>
-            <p>⚡ Building CI/CD pipelines for automated testing & deployment using <br/>Github Actions.</p>
+            <p>
+              ⚡ Hosting and maintaining websites on virtual machine with
+             databases.
+            </p>
+            <p>
+              ⚡ Building CI/CD pipelines for automated testing & deployment.
+            </p>
           </div>
         </div>
         <div className="leftImage col-lg-4 col-10">
-          <Lottie options={{
-            loop: true,
-            autoplay: true,
-            animationData: BackendAnimation,
-            rendererSettings: {
-              preserveAspectRatio: 'xMidYMid slice'
-            }
-          }}
-            height={370}
+          <Lottie
+            options={{
+              loop: true,
+              autoplay: true,
+              animationData: BackendAnimation,
+              rendererSettings: {
+                preserveAspectRatio: "xMidYMid slice",
+              },
+            }}
             isStopped={false}
-            isPaused={false} />
+            isPaused={false}
+          />
         </div>
       </div>
 
       {/* Artificial Intelligence */}
       <div className="service my-3 row">
-        <div className="leftImage col-lg-4 col-10">
-          <Lottie options={{
-            loop: true,
-            autoplay: true,
-            animationData: AIAnimation,
-            rendererSettings: {
-              preserveAspectRatio: 'xMidYMid slice'
-            }
-          }}
-            height={370}
-            isStopped={false}
-            isPaused={false} />
-        </div>
         <div className="rightSkills col-10 col-lg-5">
           <h3>Artificial Intelligence</h3>
           <div>
-            {skills.map(({ name, icon }, index) =>
+            {skills.map(({ name, icon }, index) => (
               <div className="Rskills" key={index}>
                 <img src={skillImage(icon)} alt="" />
                 <div className="showingName">{name}</div>
               </div>
-            )}
+            ))}
           </div>
           <div className="text">
-            <p>⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js.</p>
+            <p>
+              ⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js.
+            </p>
             <p>⚡ Building responsive static websites using Next.js.</p>
             <p>⚡ Building RESTful APIs in Django & Django REST Framework.</p>
           </div>
+        </div>
+
+        <div className="leftImage col-lg-4 col-10">
+          <Lottie
+            options={{
+              loop: true,
+              autoplay: true,
+              animationData: AIAnimation,
+              rendererSettings: {
+                preserveAspectRatio: "xMidYMid slice",
+              },
+            }}
+            isStopped={false}
+            isPaused={false}
+          />
         </div>
       </div>
 
@@ -328,32 +353,37 @@ function Services() {
                   <img src={skillImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
-              )
+              );
             })}
           </div>
           <div className="text">
             <p>⚡ Experience of working on multiple cloud platforms.</p>
-            <p>⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases.</p>
-            <p>⚡ Building CI/CD pipelines for automated testing & deployment using <br/> Github Actions.</p>
+            <p>
+              ⚡ Hosting and maintaining websites on virtual machine along with
+             databases.
+            </p>
+            <p>
+              ⚡ Building CI/CD pipelines for automated testing & deployment.
+            </p>
           </div>
         </div>
         <div className="leftImage col-lg-4 col-10">
-          <Lottie options={{
-            loop: true,
-            autoplay: true,
-            animationData: TestingAnimation,
-            rendererSettings: {
-              preserveAspectRatio: 'xMidYMid slice'
-            }
-          }}
-            height={335}
+          <Lottie
+            options={{
+              loop: true,
+              autoplay: true,
+              animationData: TestingAnimation,
+              rendererSettings: {
+                preserveAspectRatio: "xMidYMid slice",
+              },
+            }}
             isStopped={false}
-            isPaused={false} />
+            isPaused={false}
+          />
         </div>
       </div>
-
     </div>
-  )
+  );
 }
 
-export default Services
+export default Services;
