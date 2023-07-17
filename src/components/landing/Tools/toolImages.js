@@ -1,3 +1,13 @@
+// Graphics
+import affter_effects from '../../../assets/svg/Graphic/affter-effects.svg'
+import audition from '../../../assets/svg/Graphic/audition.svg'
+import gimp from '../../../assets/svg/Graphic/gimp.svg'
+import illustrator from '../../../assets/svg/Graphic/illustrator.svg'
+import lightroom from '../../../assets/svg/Graphic/lightroom.svg'
+import photoshop from '../../../assets/svg/Graphic/photoshop.svg'
+import picsart from '../../../assets/svg/Graphic/picsart.svg'
+import premier from '../../../assets/svg/Graphic/premier.svg'
+
 // UI/UX
 import figma from '../../../assets/svg/UI-UX/figma.svg'
 import marvel from '../../../assets/svg/UI-UX/marvel.svg'
@@ -8,10 +18,9 @@ import xd from '../../../assets/svg/UI-UX/xd.svg'
 import dart from '../../../assets/svg/Mobile/dart.svg'
 import firebase from '../../../assets/svg/Mobile/firebase.svg'
 import flutter from '../../../assets/svg/Mobile/flutter.svg'
-import ionic from '../../../assets/svg/Mobile/ionic.svg'
+import iconic from '../../../assets/svg/Mobile/iconic.svg'
 import java from '../../../assets/svg/Mobile/java.svg'
 import kotlin from '../../../assets/svg/Mobile/kotlin.svg'
-import materialui from '../../../assets/svg/Mobile/materialui.svg'
 import objective_c from '../../../assets/svg/Mobile/objective-c.svg'
 import react_native from '../../../assets/svg/Mobile/react native.svg'
 import sqlite from '../../../assets/svg/Mobile/sqlite.svg'
@@ -36,6 +45,8 @@ import vite from '../../../assets/svg/Frontend/vite.svg'
 import vue from '../../../assets/svg/Frontend/vue.svg'
 import wordpress from '../../../assets/svg/Frontend/wordpress.svg'
 import yarn from '../../../assets/svg/Frontend/yarn.svg'
+import materialui from '../../../assets/svg/Frontend/materialui.svg'
+import vitejs from '../../../assets/svg/Frontend/vitejs.svg'
 
 // Backend
 import django from '../../../assets/svg/Backend/django.svg'
@@ -59,12 +70,21 @@ import numpy from '../../../assets/svg/AI/numpy.svg'
 import opencv from '../../../assets/svg/AI/opencv.svg'
 import pytorch from '../../../assets/svg/AI/pytorch.svg'
 import tensorflow from '../../../assets/svg/AI/tensorflow.svg'
-import vitejs from '../../../assets/svg/AI/vitejs.svg'
 
 // Testing
 import selenium from '../../../assets/svg/Testing/selenium.svg'
 
 export const tools = {
+    // Graphic
+    affter_effects,
+    audition,
+    gimp,
+    illustrator,
+    lightroom,
+    photoshop,
+    picsart,
+    premier,
+
     // UI/UX
     figma,
     marvel,
@@ -75,7 +95,7 @@ export const tools = {
     dart,
     firebase,
     flutter,
-    ionic,
+    iconic,
     java,
     kotlin,
     materialui,
@@ -103,6 +123,7 @@ export const tools = {
     vue,
     wordpress,
     yarn,
+    vitejs,
 
     // Backend
     django,
@@ -126,7 +147,6 @@ export const tools = {
     opencv,
     pytorch,
     tensorflow,
-    vitejs,
 
     // Testing
     selenium,

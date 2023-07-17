@@ -15,17 +15,17 @@ const Tools = () => {
                     <Marquee
                         className="marquee"
                         gradient={false}
-                        speed={80}
+                        speed={100}
                         pauseOnHover={true}
                         pauseOnClick={true}
                         delay={0}
                         play={true}
                         direction="left"
                     >
-                        {data.map((skill, index) => (
+                        {data.map((tool, index) => (
                             <div className="skill--box" key={index} >
-                                <img src={toolImage(skill.image)} alt={skill.name} />
-                                <h3>{skill.name}</h3>
+                                <img src={toolImage(tool.image)} alt={tool.name} />
+                                <h3>{tool.name}</h3>
                             </div>
                         ))}
                     </Marquee>
