@@ -5,8 +5,6 @@ import { AppProvider } from "./context/context/app_context"
 import "./App.css"
 
 
-import { skills } from "./components/landing/skills/skillImages";
-import Projects from "./components/landing/projects/Projects";
 import { useState } from "react";
 
 import Landing from "./components/landing/landing"
