@@ -1,7 +1,8 @@
 import Lottie from "react-lottie"
-import "bootstrap/dist/css/bootstrap.min.css"
 
+import "bootstrap/dist/css/bootstrap.min.css"
 import "./services.scss"
+
 import { toolImage } from "../tools/toolImages"
 
 import GraphicsAnimation from "../../../assets/lottie/Graphics.json"
