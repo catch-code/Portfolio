@@ -1,5 +1,5 @@
 .banner {
-    padding-top: 250px;
+    padding-top: 100px;
     display: grid;
     place-items: center;
     position: relative;
@@ -15,8 +15,8 @@
         border-radius: 50%;
         background: #FFF;
         position: absolute;
-        top: 0%;
-        left: -35%;
+        top: -70%;
+        left: -30%;
         z-index: -1;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -56,13 +56,17 @@
     }
 }
 
-@media (max-width: 392px) {
+@media (max-width: 768px) {
+    .banner{
+        padding-top: 50px;
+    }
     .els {
         display: none;
     }
 
     .banner .textContent {
         h2 {
+            font-weight: 500;
             font-size: 35px;
             color: white;
         }
@@ -70,8 +74,12 @@
         >div h4 {
             font-size: 20px;
             font-weight: 400;
-            color: rgb(173, 173, 173);
+            color:rgb(229 226 226);
         }
+    }
+    .banner .homeBanner{
+        padding-top: 50px;
+        padding-left:0px ;
     }
 
 }
