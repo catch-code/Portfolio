@@ -350,7 +350,7 @@ function Services() {
     <div id="services" className="my-5">
       <h2 className="headerServices">Our Services</h2>
       {servicesData.map((service, index) =>
-        <div className="service my-3 row" key={index}>
+        <div className="service my-4 row" key={index}>
           <div className="rightSkills col-10 col-lg-5">
             <h3>{service.title}</h3>
             <div>
@@ -374,8 +374,6 @@ function Services() {
                 preserveAspectRatio: 'xMidYMid slice'
               }
             }}
-              height={400}
-              width={600}
               isStopped={false}
               isPaused={false} />
           </div>

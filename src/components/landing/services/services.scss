@@ -7,12 +7,13 @@
     gap: 20px;
     color: #fff;
     margin-top: 10rem;
-    
-    .headerServices{
+
+    .headerServices {
         color: #66BB87;
         font-weight: bold;
         font-size: 50px;
     }
+
     h4 {
         color: #fff;
         font-weight: 500;
@@ -112,7 +113,6 @@
                         z-index: -1;
                         color: #fff;
                     }
-
                 }
 
                 &:hover>.showingName {
@@ -123,6 +123,10 @@
                     -ms-transform: translateY(0);
                     -o-transform: translateY(0);
                 }
+            }
+
+            .w-65 {
+                width: 65%;
             }
 
             .text {
@@ -137,16 +141,19 @@
         .leftImage {}
     }
 }
+
 @media (max-width: 392px) {
-    .service:nth-child(3){
+    .service:nth-child(3) {
         flex-direction: column-reverse !important;
     }
 }
-@media (max-width: 768px){
-    #services{
+
+@media (max-width: 768px) {
+    #services {
         padding-top: 50px;
     }
-    .leftImage{
+
+    .leftImage {
         padding-top: 30px;
     }
 }
