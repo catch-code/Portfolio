@@ -1,11 +1,10 @@
 import { createContext, useReducer } from "react";
-
 import { AppReducer } from "../reducers/app_reducer";
-
 export const AppContext = createContext({
   appState: {},
   appDispatch: () => {},
 });
+
 
 export const AppProvider = (props) => {
   const appInitialState = {
@@ -134,8 +133,7 @@ export const AppProvider = (props) => {
           description:
             "The news website page with HTML, CSS and JavaScript is designed to be an easy-to-navigate source of information for customers. The home page provides a concise overview of the latest news stories, as well as links to other sections on the site such as sports, entertainment and business. Each section contains a list of headlines that can be clicked on in order to view more detailed articles about each topic. Additionally, users have access to search functions so they can quickly locate specific topics or keywords within the content available on this web page.",
           url: "https://midaismael.github.io/news/",
-          image:
-            "https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_52683-84601.jpg?w=1060&t=st=1689309493~exp=1689310093~hmac=fbadafb93c2022d4a1aa3a9024e02e3929fed6c848ec407e35dd0f4ba89c9e5e",
+          image: "https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_52683-84601.jpg?w=1060&t=st=1689309493~exp=1689310093~hmac=fbadafb93c2022d4a1aa3a9024e02e3929fed6c848ec407e35dd0f4ba89c9e5e",
         },
         {
           title: "Ecommerce-phone",
