@@ -11,7 +11,7 @@
     background: #eeeeee;
     width: 100%;
     z-index: 999999999;
-    flex-direction: column;
+    flex-direction: column !important;
 
     a.nav-link:hover,
     a.nav-link.active {
