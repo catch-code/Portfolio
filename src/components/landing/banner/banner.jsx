@@ -3,7 +3,7 @@ import "./banner.scss";
 function Banner() {
   return (
     <div className="container banner" id="home">
-      <div className="els"></div>
+      {/* <div className="els"></div> */}
 
       <div className="row align-items-center justify-content-between">
         <div className="col-lg-6 col-sm-12">
