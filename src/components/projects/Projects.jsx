@@ -1,23 +1,39 @@
-import { useContext, useState } from "react";
+import { useContext, useState } from "react"
 
+<<<<<<< HEAD
 import { Col, Container, Ratio, Row } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Card from "react-bootstrap/Card";
 import { useCollapse } from "react-collapsed";
 import "./projects.scss";
 import { AppContext } from "../../context/context/app_context";
+=======
+import { Col, Container, Ratio, Row } from "react-bootstrap"
+import Nav from "react-bootstrap/Nav"
+import Button from "react-bootstrap/Button"
+import Card from "react-bootstrap/Card"
+
+import "./projects.scss"
+import { AppContext } from "../../context/context/app_context"
+>>>>>>> 52c459e29b8de5b686038244e9eff4203f28d3fb
 
 function Projects() {
-  const { appState, appDispatch } = useContext(AppContext);
+  const { appState, appDispatch } = useContext(AppContext)
+  const [showMore, setShowMore] = useState(false)
 
   const handleSelect = (key) =>
     appDispatch({
       type: "SET_CATEGORY",
       payload: key,
+<<<<<<< HEAD
     });
   // const [showMore, setShowMore] = useState(false);
   const [isExpanded, setExpanded] = useState(false);
   const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
+=======
+    })
+
+>>>>>>> 52c459e29b8de5b686038244e9eff4203f28d3fb
   return (
     <div id="projects" className="container project">
       <div className="my-5 w-100">
@@ -40,10 +56,10 @@ function Projects() {
               <Nav.Link eventKey="backend">Backend Development</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="testing">Software Testing</Nav.Link>
+              <Nav.Link eventKey="ai">Artificial Intelligence</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="ai">Artificial Intelligence</Nav.Link>
+              <Nav.Link eventKey="testing">Software Testing</Nav.Link>
             </Nav.Item>
           </Nav>
 
@@ -64,7 +80,7 @@ function Projects() {
                         title="YouTube video player"
                         type="image/svg+xml"
                         src={project.embed}
-                        frameborder="0"
+                        frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen
                       />
@@ -96,7 +112,7 @@ function Projects() {
                         {isExpanded ? "Show less ▲" : "Show more ▼"}
                       </button>
                     </div>
-                    <a href={project.url} className="cta">
+                    <a href={project.url} className="cta" target="_blank" rel="noreferrer">
                       <span>View Project</span>
                       <svg width="13px" height="10px" viewBox="0 0 13 10">
                         <path d="M1,5 L11,5"></path>
@@ -111,7 +127,7 @@ function Projects() {
         </Container>
       </div>
     </div>
-  );
+  )
 }
 
-export default Projects;
+export default Projects

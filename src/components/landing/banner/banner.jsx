@@ -6,7 +6,7 @@ function Banner() {
       {/* <div className="els"></div> */}
 
       <div className="row align-items-center justify-content-between">
-        <div className="col-lg-6 col-12">
+        <div className="col-lg-6 col-sm-12">
           <div className="textContent">
             <h2><span>Developing</span> your system right now !</h2>
             <div>
@@ -17,7 +17,7 @@ function Banner() {
             </div>
           </div>
         </div>
-        <div className="col-lg-6 col-12">
+        <div className="col-lg-6 col-sm-12">
           <img className="homeBanner" src={homeBanner} alt="manworking" />
         </div>
       </div>

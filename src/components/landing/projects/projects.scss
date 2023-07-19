@@ -11,8 +11,8 @@
 
     .X-shape {
         position: relative;
-        width: 348px;
-        height: 447px;
+        width: 300px;
+        height: 400px;
         border-radius: 30px;
         margin: 30px 0;
 
@@ -86,4 +86,11 @@
 #project {
     width: 100%;
     background-image: url(https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?w=1380&t=st=1689309378~exp=1689309978~hmac=ff8f5f2910e1bf8cbf7d13837c86fdc14bb1dcdf615245c34074b92208c09042);
+}
+@media (max-width: 768px){
+  .col-sm-12{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 }

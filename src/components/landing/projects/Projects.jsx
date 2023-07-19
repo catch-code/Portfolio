@@ -20,8 +20,7 @@ function Projects() {
         <h2>Projects We Did</h2>
       </div>
       <div className="row align-items-center justify-content-between my-5 ">
-        <div className="col-4">
-          {/* why mx-5? */}
+        <div className="col-lg-4 col-sm-12">       {/* why mx-5? */}
           <h3 className="text-white d-block">UI/UX Design</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
@@ -38,7 +37,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-4">
+        <div className="col-lg-4 col-sm-12">
           <h3 className="text-white d-block">Mobile Development</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
@@ -58,7 +57,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-4">
+        <div className="col-lg-4 col-sm-12">
           <h3 className="text-white d-block">Frontend Development</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
@@ -78,7 +77,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-4">
+        <div className="col-lg-4 col-sm-12">
           <h3 className="text-white d-block">Backend Development</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
@@ -95,7 +94,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-4">
+        <div className="col-lg-4 col-sm-12">
           <h3 className="text-white d-block">Software Testing</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
@@ -112,7 +111,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="col-4">
+        <div className="col-lg-4 col-sm-12">
           <h3 className="text-white d-block">Artificial Intelligence</h3>
           <div className="X-shape">
             <div className="rotate1"></div>
