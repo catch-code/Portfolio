@@ -7,17 +7,9 @@
 }
 
 .card {
-<<<<<<< HEAD
-    min-height: 500px;
-=======
->>>>>>> 52c459e29b8de5b686038244e9eff4203f28d3fb
     display: flex;
     justify-content: space-between !important;
     flex-direction: column;
-
-    img {
-        height: 250px;
-    }
 
     .card-body {
         display: flex;
@@ -95,7 +87,6 @@
         align-items: center;
         justify-content: flex-start;
         width: fit-content;
-        margin-top: 10px;
 
         &:before {
             content: "";

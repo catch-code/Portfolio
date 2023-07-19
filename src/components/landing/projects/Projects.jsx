@@ -1,18 +1,18 @@
-import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { useContext } from "react"
+import { Link } from "react-router-dom"
 
-import "./projects.scss";
-import { AppContext } from "../../../context/context/app_context";
-import * as ActionType from "../../../context/actions/app_action";
+import "./projects.scss"
+import { AppContext } from '../../../context/context/app_context'
+import * as ActionType from '../../../context/actions/app_action'
 
 function Projects() {
-  const { appState, appDispatch } = useContext(AppContext);
 
-  const navigateToProject = (category) =>
-    appDispatch({
-      type: ActionType.SET_CATEGORY,
-      payload: category,
-    });
+  const { appState, appDispatch } = useContext(AppContext)
+
+  const navigateToProject = (category) => appDispatch({
+    type: ActionType.SET_CATEGORY,
+    payload: category
+  })
 
   return (
     <div className="container projects my-5" id="projects">
@@ -43,10 +43,7 @@ function Projects() {
             <div className="rotate1"></div>
             <div className="rotate2"></div>
             <div className="image">
-              <Link
-                to="/projects"                
-                onClick={() => navigateToProject("mobile")}
-              >
+              <Link to="/projects" onClick={() => navigateToProject("mobile")}>
                 <img
                   className=""
                   src="https://img.freepik.com/free-vector/charity-app-concept_23-2148608518.jpg?w=1380&t=st=1689309416~exp=1689310016~hmac=87f15fdce3a9be37a80915eab3e0778668812cb1f08c4a921af41a41d3ec8205"
@@ -63,10 +60,7 @@ function Projects() {
             <div className="rotate1"></div>
             <div className="rotate2"></div>
             <div className="image">
-              <Link
-                to="/projects"
-                onClick={() => navigateToProject("frontend")}
-              >
+              <Link to="/projects" onClick={() => navigateToProject("frontend")}>
                 <img
                   className=""
                   src="https://img.freepik.com/free-vector/hand-drawn-flat-design-api-illustration_52683-84601.jpg?w=1060&t=st=1689309493~exp=1689310093~hmac=fbadafb93c2022d4a1aa3a9024e02e3929fed6c848ec407e35dd0f4ba89c9e5e"
@@ -129,7 +123,7 @@ function Projects() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Projects;
+export default Projects
