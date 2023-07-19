@@ -346,11 +346,11 @@ function Services() {
   ]
 
   return (
-    <div id="services" className="my-5">
+    <div id="services" className="container my-5">
       <h2 className="headerServices">Our Services</h2>
       {servicesData.map((service, index) =>
         <div className="service my-3 row" key={index}>
-          <div className="rightSkills col-10 col-lg-5">
+          <div className="rightSkills col-lg-6 col-sm-10 ">
             <h3>{service.title}</h3>
             <div>
               {service.tools.map(({ name, icon }, index) =>
@@ -364,7 +364,7 @@ function Services() {
               {service.description.map((d, index) => <p key={index}>{d}</p>)}
             </div>
           </div>
-          <div className="leftImage col-lg-4 col-10">
+          <div className="leftImage col-lg-6 col-sm-10">
             <Lottie options={{
               loop: true,
               autoplay: true,
@@ -373,8 +373,7 @@ function Services() {
                 preserveAspectRatio: 'xMidYMid slice'
               }
             }}
-              height={400}
-              width={600}
+            // not needed hight and width
               isStopped={false}
               isPaused={false} />
           </div>
