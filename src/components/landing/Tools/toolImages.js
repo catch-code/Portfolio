@@ -64,8 +64,9 @@ import ruby from '../../../assets/svg/Backend/ruby.svg'
 import spring from '../../../assets/svg/Backend/spring.svg'
 
 // AI
-import matlab from '../../../assets/svg/AI/matlab.svg'
-import nginx from '../../../assets/svg/AI/nginx.svg'
+import hadoop from '../../../assets/svg/AI/hadoop.svg'
+import sas from '../../../assets/svg/AI/sas.svg'
+import apache_spark from '../../../assets/svg/AI/spark.svg'
 import numpy from '../../../assets/svg/AI/numpy.svg'
 import opencv from '../../../assets/svg/AI/opencv.svg'
 import pytorch from '../../../assets/svg/AI/pytorch.svg'
@@ -73,6 +74,8 @@ import tensorflow from '../../../assets/svg/AI/tensorflow.svg'
 
 // Testing
 import selenium from '../../../assets/svg/Testing/selenium.svg'
+import postman from '../../../assets/svg/Testing/postman.svg'
+import excel from '../../../assets/svg/Testing/excel.svg'
 
 export const tools = {
     // Graphic
@@ -141,15 +144,18 @@ export const tools = {
     spring,
 
     // AI
-    matlab,
-    nginx,
     numpy,
     opencv,
     pytorch,
     tensorflow,
+    hadoop,
+    sas,
+    apache_spark,
 
     // Testing
     selenium,
+    postman,
+    excel,
 }
 
 export const toolImage = tool => tools[tool]

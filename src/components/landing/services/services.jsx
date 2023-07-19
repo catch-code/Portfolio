@@ -24,33 +24,33 @@ function Services() {
       ],
       tools: [
         {
-          name: "Audition",
+          name: "Adobe Audition",
           icon: "audition"
         },
         {
-          name: "Gimp",
-          icon: "gimp"
-        },
-        {
-          name: "Illustrator",
+          name: "Adobe Illustrator",
           icon: "illustrator"
         },
         {
-          name: "Lightroom",
+          name: "Adobe Lightroom",
           icon: "lightroom"
         },
         {
-          name: "Photoshop",
+          name: "Adobe Photoshop",
           icon: "photoshop"
         },
+        // {
+        //   name: "Adobe Premier",
+        //   icon: "premier"
+        // },
         {
           name: "Picsart",
           icon: "picsart"
         },
         {
-          name: "Premier",
-          icon: "premier"
-        }
+          name: "Gimp",
+          icon: "gimp"
+        },
       ],
       animation: GraphicsAnimation,
     },
@@ -114,7 +114,7 @@ function Services() {
           icon: "kotlin"
         },
         {
-          name: "Objective C",
+          name: "Objective-C",
           icon: "objective_c"
         },
         {
@@ -287,8 +287,16 @@ function Services() {
       ],
       tools: [
         {
-          name: "MatLab",
-          icon: "matlab"
+          name: "Apache Spark",
+          icon: "apache_spark"
+        },
+        {
+          name: "Hadoop",
+          icon: "hadoop"
+        },
+        {
+          name: "SAS",
+          icon: "sas"
         },
         {
           name: "Numpy",
@@ -322,25 +330,13 @@ function Services() {
           icon: "selenium"
         },
         {
-          name: "Selenium",
-          icon: "selenium"
+          name: "Postman",
+          icon: "postman"
         },
         {
-          name: "Selenium",
-          icon: "selenium"
+          name: "Excel Sheet",
+          icon: "excel"
         },
-        {
-          name: "Selenium",
-          icon: "selenium"
-        },
-        {
-          name: "Selenium",
-          icon: "selenium"
-        },
-        {
-          name: "Selenium",
-          icon: "selenium"
-        }
       ],
       animation: TestingAnimation,
     },
