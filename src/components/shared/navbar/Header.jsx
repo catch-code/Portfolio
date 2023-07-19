@@ -1,8 +1,9 @@
-import { Navbar, Nav, Container } from "react-bootstrap"
-import "./navbar.scss"
-import home from "../../../assets/imgs/Ellipse.png"
-import { Link } from "react-router-dom"
-import { useState } from "react"
+import { Navbar, Nav, Container } from "react-bootstrap";
+import "./navbar.scss";
+import home from "../../../assets/imgs/Ellipse.png";
+import { Link } from "react-router-dom";
+import { useState } from "react";
+import ScrollIndicator from "../../landing/scroll/ScrollIndicator";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -16,20 +17,24 @@ const Header = () => {
           <img src={home} alt="home" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-white">
-          <span className="navbar-toggler-icon bg-white" onClick={addClass}></span>
+          <span
+            className="navbar-toggler-icon bg-white"
+            onClick={addClass}
+          ></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto p-2">
             <Nav.Link href="/">home</Nav.Link>
-            <Nav.Link href="#services">services</Nav.Link>
-            <Nav.Link href="#skills">skills</Nav.Link>
-            <Nav.Link href="#projects">projects</Nav.Link>
-            <Nav.Link href="#contact">contact us</Nav.Link>
+            <Nav.Link href="/#services">services</Nav.Link>
+            <Nav.Link href="/#tools">skills</Nav.Link>
+            <Nav.Link href="/#projects">projects</Nav.Link>
+            <Nav.Link href="/#contact">contact us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
+      <ScrollIndicator color="#66BB87" />
     </Navbar>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

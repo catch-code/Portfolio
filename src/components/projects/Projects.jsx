@@ -2,9 +2,8 @@ import { useContext, useState } from "react";
 
 import { Col, Container, Ratio, Row } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-
+import { useCollapse } from "react-collapsed";
 import "./projects.scss";
 import { AppContext } from "../../context/context/app_context";
 
@@ -16,7 +15,9 @@ function Projects() {
       type: "SET_CATEGORY",
       payload: key,
     });
-  const [showMore, setShowMore] = useState(false);
+  // const [showMore, setShowMore] = useState(false);
+  const [isExpanded, setExpanded] = useState(false);
+  const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
   return (
     <div id="projects" className="container project">
       <div className="my-5 w-100">
@@ -72,7 +73,7 @@ function Projects() {
                   <Card.Body>
                     <div>
                       <Card.Title>{project.title}</Card.Title>
-                      <h6 className="desc">
+                      {/* <h6 className="desc">
                         {showMore
                           ? project.description
                           : `${project.description.substring(0, 250)}`}
@@ -82,7 +83,18 @@ function Projects() {
                         >
                           {showMore ? "Show less ▲" : "Show more ▼"}
                         </button>
-                      </h6>
+                      </h6> */}
+                      <section {...getCollapseProps()}>
+                        {project.description}
+                      </section>
+                      <button
+                        {...getToggleProps({
+                          onClick: () =>
+                            setExpanded((prevExpanded) => !prevExpanded),
+                        })}
+                      >
+                        {isExpanded ? "Show less ▲" : "Show more ▼"}
+                      </button>
                     </div>
                     <a href={project.url} className="cta">
                       <span>View Project</span>

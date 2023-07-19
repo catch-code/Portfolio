@@ -7,10 +7,14 @@
 }
 
 .card {
-    height: 600px;
+    min-height: 500px;
     display: flex;
     justify-content: space-between !important;
     flex-direction: column;
+
+    img {
+        height: 250px;
+    }
 
     .card-body {
         display: flex;
@@ -88,6 +92,7 @@
         align-items: center;
         justify-content: flex-start;
         width: fit-content;
+        margin-top: 10px;
 
         &:before {
             content: "";
