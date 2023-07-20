@@ -1,11 +1,12 @@
 import { useContext, useState } from "react"
-
-import { Col, Container, Ratio, Row } from "react-bootstrap";
-import Nav from "react-bootstrap/Nav";
-import Card from "react-bootstrap/Card";
+import { Col, Container, Ratio, Row } from "react-bootstrap"
 import { useCollapse } from "react-collapsed";
-import "./projects.scss";
-import { AppContext } from "../../context/context/app_context";
+import Nav from "react-bootstrap/Nav"
+import Button from "react-bootstrap/Button"
+import Card from "react-bootstrap/Card"
+
+import "./projects.scss"
+import { AppContext } from "../../context/context/app_context"
 
 function Projects() {
   const { appState, appDispatch } = useContext(AppContext)
@@ -74,7 +75,7 @@ function Projects() {
                   <Card.Body>
                     <div>
                       <Card.Title>{project.title}</Card.Title>
-                      {/* <h6 className="desc">
+                      <h6 className="desc">
                         {showMore
                           ? project.description
                           : `${project.description.substring(0, 250)}`}
@@ -84,18 +85,7 @@ function Projects() {
                         >
                           {showMore ? "Show less ▲" : "Show more ▼"}
                         </button>
-                      </h6> */}
-                      <section {...getCollapseProps()}>
-                        {project.description}
-                      </section>
-                      <button
-                        {...getToggleProps({
-                          onClick: () =>
-                            setExpanded((prevExpanded) => !prevExpanded),
-                        })}
-                      >
-                        {isExpanded ? "Show less ▲" : "Show more ▼"}
-                      </button>
+                      </h6>
                     </div>
                     <a href={project.url} className="cta" target="_blank" rel="noreferrer">
                       <span>View Project</span>

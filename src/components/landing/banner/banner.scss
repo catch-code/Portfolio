@@ -24,9 +24,20 @@
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
 
-        // }
-        .homeBanner {
-            padding-left: 100px;
+    }
+    .homeBanner{
+        padding-left: 100px;
+    }
+    .textContent {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: #05192D;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
         }
 
         .textContent {

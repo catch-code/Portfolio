@@ -1,16 +1,16 @@
-import Lottie from "react-lottie"
-import "bootstrap/dist/css/bootstrap.min.css"
+import Lottie from "react-lottie";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import "./services.scss"
-import { toolImage } from "../tools/toolImages"
+import "./services.scss";
+import { toolImage } from "../tools/toolImages";
 
-import GraphicsAnimation from "../../../assets/lottie/Graphics.json"
-import UIUXAnimation from "../../../assets/lottie/UI-UX Design.json"
-import MobileAnimation from "../../../assets/lottie/Mobile Development.json"
-import FrontendAnimation from "../../../assets/lottie/Frontend Development.json"
-import BackendAnimation from "../../../assets/lottie/Backend Development.json"
-import AIAnimation from "../../../assets/lottie/AI.json"
-import TestingAnimation from "../../../assets/lottie/Testing.json"
+import GraphicsAnimation from "../../../assets/lottie/Graphics.json";
+import UIUXAnimation from "../../../assets/lottie/UI-UX Design.json";
+import MobileAnimation from "../../../assets/lottie/Mobile Development.json";
+import FrontendAnimation from "../../../assets/lottie/Frontend Development.json";
+import BackendAnimation from "../../../assets/lottie/Backend Development.json";
+import AIAnimation from "../../../assets/lottie/AI.json";
+import TestingAnimation from "../../../assets/lottie/Testing.json";
 
 function Services() {
   const servicesData = [
@@ -19,37 +19,37 @@ function Services() {
       description: [
         "⚡ Experience of working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
           name: "Audition",
-          icon: "audition"
+          icon: "audition",
         },
         {
           name: "Gimp",
-          icon: "gimp"
+          icon: "gimp",
         },
         {
           name: "Illustrator",
-          icon: "illustrator"
+          icon: "illustrator",
         },
         {
           name: "Lightroom",
-          icon: "lightroom"
+          icon: "lightroom",
         },
         {
           name: "Photoshop",
-          icon: "photoshop"
+          icon: "photoshop",
         },
         {
           name: "Picsart",
-          icon: "picsart"
+          icon: "picsart",
         },
         {
           name: "Premier",
-          icon: "premier"
-        }
+          icon: "premier",
+        },
       ],
       animation: GraphicsAnimation,
     },
@@ -58,25 +58,25 @@ function Services() {
       description: [
         "⚡ Experience of working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
           name: "Figma",
-          icon: "figma"
+          icon: "figma",
         },
         {
           name: "Marvel",
-          icon: "marvel"
+          icon: "marvel",
         },
         {
           name: "Sketch",
-          icon: "sketch"
+          icon: "sketch",
         },
         {
           name: "Adobe XD",
-          icon: "xd"
-        }
+          icon: "xd",
+        },
       ],
       animation: UIUXAnimation,
     },
@@ -85,52 +85,52 @@ function Services() {
       description: [
         "⚡ Experience of working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
           name: "Dart",
-          icon: "dart"
+          icon: "dart",
         },
         {
           name: "Flutter",
-          icon: "flutter"
+          icon: "flutter",
         },
         {
           name: "Firebase",
-          icon: "firebase"
+          icon: "firebase",
         },
         {
           name: "Iconic",
-          icon: "iconic"
+          icon: "iconic",
         },
         {
           name: "Jave",
-          icon: "java"
+          icon: "java",
         },
         {
           name: "Kotlin",
-          icon: "kotlin"
+          icon: "kotlin",
         },
         {
           name: "Objective C",
-          icon: "objective_c"
+          icon: "objective_c",
         },
         {
           name: "React Native",
-          icon: "react_native"
+          icon: "react_native",
         },
         {
           name: "SQLite",
-          icon: "sqlite"
+          icon: "sqlite",
         },
         {
           name: "Swift",
-          icon: "swift"
+          icon: "swift",
         },
         {
           name: "Xamarin",
-          icon: "xamarin"
+          icon: "xamarin",
         },
       ],
       animation: MobileAnimation,
@@ -140,72 +140,72 @@ function Services() {
       description: [
         "⚡ Experience of working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
           name: "Angular",
-          icon: "angular"
+          icon: "angular",
         },
         {
           name: "Bootstrap",
-          icon: "bootstrap"
+          icon: "bootstrap",
         },
         {
           name: "CSS",
-          icon: "css"
+          icon: "css",
         },
         {
           name: "HTML",
-          icon: "html"
+          icon: "html",
         },
         {
           name: "JaveScript",
-          icon: "javascript"
+          icon: "javascript",
         },
         {
           name: "JQuery",
-          icon: "jquery"
+          icon: "jquery",
         },
         {
           name: "Material UI",
-          icon: "materialui"
+          icon: "materialui",
         },
         {
           name: "Next JS",
-          icon: "next"
+          icon: "next",
         },
         {
           name: "React JS",
-          icon: "react"
+          icon: "react",
         },
         {
           name: "Redux",
-          icon: "redux"
+          icon: "redux",
         },
         {
           name: "TypeScript",
-          icon: "typescript"
+          icon: "typescript",
         },
         {
           name: "Vite JS",
-          icon: "vite"
+          icon: "vite",
         },
         {
           name: "Vue JS",
-          icon: "vue"
+          icon: "vue",
         },
         {
           name: "WordPress",
-          icon: "wordpress"
+          icon: "wordpress",
         },
         {
           name: "Tailwind",
-          icon: "tailwind"
+          icon: "tailwind",
         },
         {
           name: "SCSS",
-          icon: "scss"
+          icon: "scss",
         },
       ],
       animation: FrontendAnimation,
@@ -215,64 +215,64 @@ function Services() {
       description: [
         "⚡ Experience of working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
           name: "DJango",
-          icon: "django"
+          icon: "django",
         },
         {
           name: "ASP.NET",
-          icon: "dot_net"
+          icon: "dot_net",
         },
         {
           name: "Express JS",
-          icon: "express"
+          icon: "express",
         },
         {
           name: "GO",
-          icon: "go"
+          icon: "go",
         },
         {
           name: "Laravel",
-          icon: "laravel"
+          icon: "laravel",
         },
         {
           name: "Mongo DB",
-          icon: "mongodb"
+          icon: "mongodb",
         },
         {
           name: "SQL Server",
-          icon: "mssql"
+          icon: "mssql",
         },
         {
           name: "MySQL",
-          icon: "mysql"
+          icon: "mysql",
         },
         {
           name: "Nest JS",
-          icon: "nest"
+          icon: "nest",
         },
         {
           name: "Node JS",
-          icon: "node"
+          icon: "node",
         },
         {
           name: "TypeScript",
-          icon: "typescript"
+          icon: "typescript",
         },
         {
           name: "PostgreSQL",
-          icon: "postgresql"
+          icon: "postgresql",
         },
         {
           name: "Ruby",
-          icon: "ruby"
+          icon: "ruby",
         },
         {
           name: "Java Spring",
-          icon: "spring"
+          icon: "spring",
         },
       ],
       animation: BackendAnimation,
@@ -282,29 +282,29 @@ function Services() {
       description: [
         "⚡ Experience of working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
           name: "MatLab",
-          icon: "matlab"
+          icon: "matlab",
         },
         {
           name: "Numpy",
-          icon: "numpy"
+          icon: "numpy",
         },
         {
           name: "Open CV",
-          icon: "opencv"
+          icon: "opencv",
         },
         {
           name: "Pytorch",
-          icon: "pytorch"
+          icon: "pytorch",
         },
         {
           name: "Tensorflow",
-          icon: "tensorflow"
-        }
+          icon: "tensorflow",
+        },
       ],
       animation: AIAnimation,
     },
@@ -313,75 +313,78 @@ function Services() {
       description: [
         "⚡ Experience of working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
           name: "Selenium",
-          icon: "selenium"
+          icon: "selenium",
         },
         {
           name: "Selenium",
-          icon: "selenium"
+          icon: "selenium",
         },
         {
           name: "Selenium",
-          icon: "selenium"
+          icon: "selenium",
         },
         {
           name: "Selenium",
-          icon: "selenium"
+          icon: "selenium",
         },
         {
           name: "Selenium",
-          icon: "selenium"
+          icon: "selenium",
         },
         {
           name: "Selenium",
-          icon: "selenium"
-        }
+          icon: "selenium",
+        },
       ],
       animation: TestingAnimation,
     },
-  ]
+  ];
 
   return (
-    <div id="services" className="my-5">
+    <div id="services" className="container my-5">
       <h2 className="headerServices">Our Services</h2>
-      {servicesData.map((service, index) =>
+      {servicesData.map((service, index) => (
         <div className="service my-3 row" key={index}>
-          <div className="rightSkills col-10 col-lg-5">
+          <div className="rightSkills col-lg-6 col-sm-10 ">
             <h3>{service.title}</h3>
             <div>
-              {service.tools.map(({ name, icon }, index) =>
+              {service.tools.map(({ name, icon }, index) => (
                 <div className="Rskills" key={index}>
                   <img src={toolImage(icon)} alt="" />
                   <div className="showingName">{name}</div>
                 </div>
-              )}
+              ))}
             </div>
             <div className="text">
-              {service.description.map((d, index) => <p key={index}>{d}</p>)}
+              {service.description.map((d, index) => (
+                <p key={index}>{d}</p>
+              ))}
             </div>
           </div>
-          <div className="leftImage col-lg-4 col-10">
-            <Lottie options={{
-              loop: true,
-              autoplay: true,
-              animationData: service.animation,
-              rendererSettings: {
-                preserveAspectRatio: 'xMidYMid slice'
-              }
-            }}
-              height={400}
-              width={600}
+          <div className="leftImage col-lg-6 col-sm-10">
+            <Lottie
+              options={{
+                loop: true,
+                autoplay: true,
+                animationData: service.animation,
+                rendererSettings: {
+                  preserveAspectRatio: "xMidYMid slice",
+                },
+              }}
+              // not needed hight and width
               isStopped={false}
-              isPaused={false} />
+              isPaused={false}
+            />
           </div>
         </div>
-      )}
+      ))}
     </div>
-  )
+  );
 }
 
-export default Services
+export default Services;
