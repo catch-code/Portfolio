@@ -4,26 +4,11 @@
     place-items: center;
     position: relative;
     z-index: 1;
-    span{
+
+    span {
         color: #66BB87;
     }
 
-<<<<<<< HEAD
-    // .els {
-    //     width: 990px;
-    //     /* padding-top: 102px; */
-    //     height: 808px;
-    //     border-radius: 50%;
-    //     background: #FFF;
-    //     position: absolute;
-    //     top: 0%;
-    //     left: -35%;
-    //     z-index: -1;
-    //     -webkit-border-radius: 50%;
-    //     -moz-border-radius: 50%;
-    //     -ms-border-radius: 50%;
-    //     -o-border-radius: 50%;
-=======
     .els {
         width: 990px;
         /* padding-top: 102px; */
@@ -38,65 +23,68 @@
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
->>>>>>> 52c459e29b8de5b686038244e9eff4203f28d3fb
 
-    // }
-    .homeBanner{
-        padding-left: 100px;
-    }
-    .textContent {
-        display: flex;
-        flex-direction: column;
-
-        h2 {
-            color: #05192D;
-            font-size: 45px;
-            font-style: normal;
-            font-weight: 900;
-            line-height: normal;
+        // }
+        .homeBanner {
+            padding-left: 100px;
         }
 
-        >div {
+        .textContent {
             display: flex;
             flex-direction: column;
 
-            h4 {
-                color: #222;
-                font-size: 20px;
+            h2 {
+                color: #05192D;
+                font-size: 45px;
                 font-style: normal;
-                font-weight: 600;
+                font-weight: 900;
                 line-height: normal;
+            }
+
+            >div {
+                display: flex;
+                flex-direction: column;
+
+                h4 {
+                    color: #222;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+
+
+        }
+    }
+
+    @media (max-width: 768px) {
+        .banner {
+            padding-top: 50px;
+        }
+
+        .els {
+            display: none;
+        }
+
+        .banner .textContent {
+            h2 {
+                font-weight: 500;
+                font-size: 35px;
+                color: white;
+            }
+
+            >div h4 {
+                font-size: 20px;
+                font-weight: 400;
+                color: rgb(229 226 226);
             }
         }
 
-
-    }
-}
-
-@media (max-width: 768px) {
-    .banner{
-        padding-top: 50px;
-    }
-    .els {
-        display: none;
-    }
-
-    .banner .textContent {
-        h2 {
-            font-weight: 500;
-            font-size: 35px;
-            color: white;
+        .banner .homeBanner {
+            padding-top: 50px;
+            padding-left: 0px;
         }
 
-        >div h4 {
-            font-size: 20px;
-            font-weight: 400;
-            color:rgb(229 226 226);
-        }
     }
-    .banner .homeBanner{
-        padding-top: 50px;
-        padding-left:0px ;
-    }
-
 }
