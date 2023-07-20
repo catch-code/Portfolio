@@ -1,6 +1,6 @@
 import { useContext, useState } from "react"
-
 import { Col, Container, Ratio, Row } from "react-bootstrap"
+import { useCollapse } from "react-collapsed";
 import Nav from "react-bootstrap/Nav"
 import Button from "react-bootstrap/Button"
 import Card from "react-bootstrap/Card"
@@ -16,8 +16,10 @@ function Projects() {
     appDispatch({
       type: "SET_CATEGORY",
       payload: key,
-    })
-
+    });
+  // const [showMore, setShowMore] = useState(false);
+  const [isExpanded, setExpanded] = useState(false);
+  const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
   return (
     <div id="projects" className="container project">
       <div className="my-5 w-100">

@@ -4,7 +4,8 @@
     place-items: center;
     position: relative;
     z-index: 1;
-    span{
+
+    span {
         color: #66BB87;
     }
 
@@ -39,47 +40,62 @@
             line-height: normal;
         }
 
-        >div {
+        .textContent {
             display: flex;
             flex-direction: column;
 
-            h4 {
-                color: #222;
-                font-size: 20px;
+            h2 {
+                color: #05192D;
+                font-size: 45px;
                 font-style: normal;
-                font-weight: 600;
+                font-weight: 900;
                 line-height: normal;
+            }
+
+            >div {
+                display: flex;
+                flex-direction: column;
+
+                h4 {
+                    color: #222;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+
+
+        }
+    }
+
+    @media (max-width: 768px) {
+        .banner {
+            padding-top: 50px;
+        }
+
+        .els {
+            display: none;
+        }
+
+        .banner .textContent {
+            h2 {
+                font-weight: 500;
+                font-size: 35px;
+                color: white;
+            }
+
+            >div h4 {
+                font-size: 20px;
+                font-weight: 400;
+                color: rgb(229 226 226);
             }
         }
 
-
-    }
-}
-
-@media (max-width: 768px) {
-    .banner{
-        padding-top: 50px;
-    }
-    .els {
-        display: none;
-    }
-
-    .banner .textContent {
-        h2 {
-            font-weight: 500;
-            font-size: 35px;
-            color: white;
+        .banner .homeBanner {
+            padding-top: 50px;
+            padding-left: 0px;
         }
 
-        >div h4 {
-            font-size: 20px;
-            font-weight: 400;
-            color:rgb(229 226 226);
-        }
     }
-    .banner .homeBanner{
-        padding-top: 50px;
-        padding-left:0px ;
-    }
-
 }
