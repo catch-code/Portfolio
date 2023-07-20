@@ -1,8 +1,6 @@
-import { useContext, useState } from "react"
+import { useContext } from "react"
 import { Col, Container, Ratio, Row } from "react-bootstrap"
-import { useCollapse } from "react-collapsed";
 import Nav from "react-bootstrap/Nav"
-import Button from "react-bootstrap/Button"
 import Card from "react-bootstrap/Card"
 
 import "./projects.scss"
@@ -10,18 +8,15 @@ import { AppContext } from "../../context/context/app_context"
 
 function Projects() {
   const { appState, appDispatch } = useContext(AppContext)
-  const [showMore, setShowMore] = useState(false)
 
   const handleSelect = (key) =>
     appDispatch({
       type: "SET_CATEGORY",
       payload: key,
     });
-  // const [showMore, setShowMore] = useState(false);
-  const [isExpanded, setExpanded] = useState(false);
-  const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
+
   return (
-    <div id="projects" className="container project">
+    <div id="projects" className="container project my-5">
       <div className="my-5 w-100">
         <Container>
           <Nav
@@ -36,16 +31,7 @@ function Projects() {
               <Nav.Link eventKey="mobile">Mobile Development</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="frontend">Frontend Development</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="backend">Backend Development</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="ai">Artificial Intelligence</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link eventKey="testing">Software Testing</Nav.Link>
+              <Nav.Link eventKey="web">Web Development</Nav.Link>
             </Nav.Item>
           </Nav>
 
@@ -55,14 +41,14 @@ function Projects() {
                 <Card className="raduis-5">
                   {project.image ? (
                     <Card.Img
-                      className="raduis-5"
+                      className="raduis-5-2"
                       variant="top"
                       src={project.image}
                     />
                   ) : (
                     <Ratio aspectRatio="16x9" className="raduis-5">
                       <embed
-                        className="raduis-5"
+                        className="raduis-5-2"
                         title="YouTube video player"
                         type="image/svg+xml"
                         src={project.embed}
@@ -73,18 +59,10 @@ function Projects() {
                     </Ratio>
                   )}
                   <Card.Body>
-                    <div>
+                    <div className="my-3">
                       <Card.Title>{project.title}</Card.Title>
                       <h6 className="desc">
-                        {showMore
-                          ? project.description
-                          : `${project.description.substring(0, 250)}`}
-                        <button
-                          className="showmoreBtn"
-                          onClick={() => setShowMore(!showMore)}
-                        >
-                          {showMore ? "Show less ▲" : "Show more ▼"}
-                        </button>
+                        {`${project.description.substring(0, 180)}...`}
                       </h6>
                     </div>
                     <a href={project.url} className="cta" target="_blank" rel="noreferrer">

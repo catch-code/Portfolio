@@ -208,10 +208,6 @@
         "image": "spring"
     },
     {
-        "name": "MatLab",
-        "image": "matlab"
-    },
-    {
         "name": "Numpy",
         "image": "numpy"
     },

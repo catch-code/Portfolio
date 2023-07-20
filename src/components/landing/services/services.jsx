@@ -18,9 +18,9 @@ function Services() {
     {
       title: "Graphic Design",
       description: [
-        "⚡ Experience of working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
+        "- Experience of working on multiple cloud platforms",
+        "- Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "- Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
@@ -52,14 +52,18 @@ function Services() {
           icon: "gimp",
         },
       ],
-      animation: GraphicsAnimation,
+      animation: {
+        data: GraphicsAnimation,
+        width: 350,
+        height: 200,
+      },
     },
     {
       title: "UI/UX Design",
       description: [
-        "⚡ Experience of working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
+        "- Experience of working on multiple cloud platforms",
+        "- Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "- Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
@@ -79,28 +83,36 @@ function Services() {
           icon: "xd",
         },
       ],
-      animation: UIUXAnimation,
+      animation: {
+        data: UIUXAnimation,
+        width: 350,
+        height: 220,
+      },
     },
     {
       title: "Mobile Development",
       description: [
-        "⚡ Experience of working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
+        "- Experience of working on multiple cloud platforms",
+        "- Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "- Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
-        {
-          name: "Dart",
-          icon: "dart",
-        },
+        // {
+        //   name: "Dart",
+        //   icon: "dart",
+        // },
         {
           name: "Flutter",
           icon: "flutter",
         },
         {
-          name: "Firebase",
-          icon: "firebase",
+          name: "React Native",
+          icon: "react_native",
         },
+        // {
+        //   name: "Firebase",
+        //   icon: "firebase",
+        // },
         {
           name: "Iconic",
           icon: "iconic",
@@ -113,18 +125,14 @@ function Services() {
           name: "Kotlin",
           icon: "kotlin",
         },
-        {
-          name: "Objective-C",
-          icon: "objective_c",
-        },
-        {
-          name: "React Native",
-          icon: "react_native",
-        },
-        {
-          name: "SQLite",
-          icon: "sqlite",
-        },
+        // {
+        //   name: "Objective-C",
+        //   icon: "objective_c",
+        // },
+        // {
+        //   name: "SQLite",
+        //   icon: "sqlite",
+        // },
         {
           name: "Swift",
           icon: "swift",
@@ -134,43 +142,43 @@ function Services() {
           icon: "xamarin",
         },
       ],
-      animation: MobileAnimation,
+      animation: {
+        data: MobileAnimation,
+        width: 350,
+        height: 275,
+      },
     },
     {
       title: "Frontend Development",
       description: [
-        "⚡ Experience of working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
+        "- Experience of working on multiple cloud platforms",
+        "- Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "- Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
-          name: "Angular",
-          icon: "angular",
-        },
-        {
-          name: "Bootstrap",
-          icon: "bootstrap",
+          name: "HTML",
+          icon: "html",
         },
         {
           name: "CSS",
           icon: "css",
         },
         {
-          name: "HTML",
-          icon: "html",
-        },
-        {
           name: "JaveScript",
           icon: "javascript",
+        },
+        {
+          name: "Bootstrap",
+          icon: "bootstrap",
         },
         {
           name: "JQuery",
           icon: "jquery",
         },
         {
-          name: "Material UI",
-          icon: "materialui",
+          name: "Angular",
+          icon: "angular",
         },
         {
           name: "Next JS",
@@ -180,14 +188,18 @@ function Services() {
           name: "React JS",
           icon: "react",
         },
-        {
-          name: "Redux",
-          icon: "redux",
-        },
-        {
-          name: "TypeScript",
-          icon: "typescript",
-        },
+        // {
+        //   name: "Material UI",
+        //   icon: "materialui",
+        // },
+        // {
+        //   name: "Redux",
+        //   icon: "redux",
+        // },
+        // {
+        //   name: "TypeScript",
+        //   icon: "typescript",
+        // },
         {
           name: "Vite JS",
           icon: "vite",
@@ -196,10 +208,10 @@ function Services() {
           name: "Vue JS",
           icon: "vue",
         },
-        {
-          name: "WordPress",
-          icon: "wordpress",
-        },
+        // {
+        //   name: "WordPress",
+        //   icon: "wordpress",
+        // },
         {
           name: "Tailwind",
           icon: "tailwind",
@@ -209,81 +221,89 @@ function Services() {
           icon: "scss",
         },
       ],
-      animation: FrontendAnimation,
+      animation: {
+        data: FrontendAnimation,
+        width: 350,
+        height: 300,
+      },
     },
     {
       title: "Backend Development",
       description: [
-        "⚡ Experience of working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
+        "- Experience of working on multiple cloud platforms",
+        "- Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "- Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
-          name: "DJango",
-          icon: "django",
+          name: "Java Spring",
+          icon: "spring",
         },
         {
           name: "ASP.NET",
           icon: "dot_net",
         },
         {
-          name: "Express JS",
-          icon: "express",
+          name: "DJango",
+          icon: "django",
         },
         {
-          name: "GO",
-          icon: "go",
+          name: "Node JS",
+          icon: "node",
+        },
+        // {
+        //   name: "Express JS",
+        //   icon: "express",
+        // },
+        {
+          name: "Nest JS",
+          icon: "nest",
         },
         {
           name: "Laravel",
           icon: "laravel",
         },
         {
-          name: "Mongo DB",
-          icon: "mongodb",
+          name: "GO",
+          icon: "go",
         },
+        // {
+        //   name: "SQL Server",
+        //   icon: "mssql",
+        // },
+        // {
+        //   name: "TypeScript",
+        //   icon: "typescript",
+        // },
+        // {
+        //   name: "Ruby",
+        //   icon: "ruby",
+        // },
         {
-          name: "SQL Server",
-          icon: "mssql",
+          name: "PostgreSQL",
+          icon: "postgresql",
         },
         {
           name: "MySQL",
           icon: "mysql",
         },
         {
-          name: "Nest JS",
-          icon: "nest",
-        },
-        {
-          name: "Node JS",
-          icon: "node",
-        },
-        {
-          name: "TypeScript",
-          icon: "typescript",
-        },
-        {
-          name: "PostgreSQL",
-          icon: "postgresql",
-        },
-        {
-          name: "Ruby",
-          icon: "ruby",
-        },
-        {
-          name: "Java Spring",
-          icon: "spring",
+          name: "Mongo DB",
+          icon: "mongodb",
         },
       ],
-      animation: BackendAnimation,
+      animation: {
+        data: BackendAnimation,
+        width: 350,
+        height: 300,
+      },
     },
     {
       title: "Artificial Intelligence",
       description: [
-        "⚡ Experience of working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
+        "- Experience of working on multiple cloud platforms",
+        "- Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "- Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
@@ -315,14 +335,18 @@ function Services() {
           icon: "tensorflow",
         },
       ],
-      animation: AIAnimation,
+      animation: {
+        data: AIAnimation,
+        width: 350,
+        height: 350,
+      },
     },
     {
       title: "Software Testing",
       description: [
-        "⚡ Experience of working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
+        "- Experience of working on multiple cloud platforms",
+        "- Hosting and maintaining websites on virtual machine instances along with integration of databases",
+        "- Building CI/CD pipelines for automated testing & deployment using Github Actions",
       ],
       tools: [
         {
@@ -338,7 +362,11 @@ function Services() {
           icon: "excel"
         },
       ],
-      animation: TestingAnimation,
+      animation: {
+        data: TestingAnimation,
+        width: 330,
+        height: 240,
+      },
     },
   ];
 
@@ -346,7 +374,7 @@ function Services() {
     <div id="services" className="container my-5">
       <h2 className="headerServices">Our Services</h2>
       {servicesData.map((service, index) => (
-        <div className="service my-3 row" key={index}>
+        <div className="service w-100 my-5 row" key={index}>
           <div className="rightSkills col-lg-6 col-sm-10 ">
             <h3>{service.title}</h3>
             <div>
@@ -368,12 +396,13 @@ function Services() {
               options={{
                 loop: true,
                 autoplay: true,
-                animationData: service.animation,
+                animationData: service.animation.data,
                 rendererSettings: {
                   preserveAspectRatio: "xMidYMid slice",
                 },
               }}
-              // not needed hight and width
+              width={service.animation.width}
+              height={service.animation.height}
               isStopped={false}
               isPaused={false}
             />

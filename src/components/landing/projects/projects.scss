@@ -1,5 +1,5 @@
 .projects {
-  > div h2 {
+  >div h2 {
     font-family: sans-serif;
     color: #66bb87;
     font-style: normal;
@@ -20,6 +20,7 @@
       position: absolute;
       z-index: 1;
       width: 100%;
+      height: 100%;
       top: 50%;
       left: 60%;
       transform: translate(-50%, -50%);
@@ -27,7 +28,8 @@
 
       img {
         width: 82%;
-        min-height: 100%;
+        height: 88%;
+        margin: 9% -1%;
         border-radius: 30px;
       }
     }
@@ -87,6 +89,7 @@
   width: 100%;
   background-image: url(https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?w=1380&t=st=1689309378~exp=1689309978~hmac=ff8f5f2910e1bf8cbf7d13837c86fdc14bb1dcdf615245c34074b92208c09042);
 }
+
 @media (max-width: 768px) {
   .col-sm-12 {
     display: flex;
@@ -95,10 +98,12 @@
     justify-content: space-around;
   }
 }
+
 @media (max-width: 392px) {
-  .projects > div h2 {
+  .projects>div h2 {
     font-size: 2.5rem;
   }
+
   .projects .X-shape {
     width: 200px;
     height: 300px;

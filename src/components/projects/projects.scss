@@ -6,6 +6,16 @@
     -o-border-radius: 25px !important;
 }
 
+.raduis-5-2 {
+    border-radius: 25px 25px 0 0 !important;
+    -webkit-border-radius: 25px 25px 0 0 !important;
+    -moz-border-radius: 25px 25px 0 0 !important;
+    -ms-border-radius: 25px 25px 0 0 !important;
+    -o-border-radius: 25px 25px 0 0 !important;
+
+    height: 250px;
+}
+
 .card {
     min-height: 500px;
     display: flex;
@@ -33,7 +43,7 @@
     }
 
     .nav.nav-pills .nav-item {
-        width: calc(100% / 6);
+        width: calc(100% / 3);
     }
 
 
@@ -169,7 +179,7 @@
     }
 
     .nav.nav-pills .nav-link.active {
-        border: 1px solid rgba(255, 255, 255, 1);
+        // border: 1px solid rgba(255, 255, 255, 1);
     }
 }
 
