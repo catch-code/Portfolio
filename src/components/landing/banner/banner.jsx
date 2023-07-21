@@ -1,9 +1,11 @@
-import homeBanner from "../../../assets/imgs/homeBanner.gif"
+import Lottie from "react-lottie"
+import bannerAnimation from "../../../assets/lottie/banner.json"
 import "./banner.scss"
-function Banner() {
+
+const Banner = () => {
   return (
     <div className="bannerHomePage bg-white">
-      <div className="container banner" id="home">
+      <div className="banner" id="home">
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-6 col-sm-12">
             <div className="textContent">
@@ -19,7 +21,20 @@ function Banner() {
             </div>
           </div>
           <div className="col-lg-6 col-sm-12">
-            <img className="homeBanner" src={homeBanner} alt="manworking" />
+            <Lottie
+              options={{
+                loop: true,
+                autoplay: true,
+                animationData: bannerAnimation,
+                rendererSettings: {
+                  preserveAspectRatio: "xMidYMid slice",
+                },
+              }}
+              width={350}
+              height={300}
+              isStopped={false}
+              isPaused={false}
+            />
           </div>
         </div>
       </div>

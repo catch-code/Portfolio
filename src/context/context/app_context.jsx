@@ -13,7 +13,7 @@ export const AppProvider = (props) => {
       uiux: [
         {
           title: "Tasaly Flex",
-          description: "",
+          description: "like imdb",
           url: "https://www.behance.net/gallery/146845217/Tasaly-Flex-UIUX-Design",
           image:
             "https://mir-s3-cdn-cf.behance.net/projects/808/68f6f4146845217.Y3JvcCw4MDgsNjMyLDAsMA.png",
@@ -46,13 +46,6 @@ export const AppProvider = (props) => {
           image:
             "https://mir-s3-cdn-cf.behance.net/projects/808/b9c95b169361441.Y3JvcCwyMzk3LDE4NzUsNDYyLDA.png",
         },
-        {
-          title: "Movie App",
-          description: "",
-          url: "https://www.behance.net/gallery/170432403/E-Wallet-App-(Tap-Cash)-ODC-Hackathon",
-          image: "https://img.freepik.com/free-vector/display-template-with-clapperboard-glasses_79603-1244.jpg?w=1380&t=st=1689945417~exp=1689946017~hmac=e752a24a9c7101319e728f925638e86a937c47bfed42b7b13334373eac7d0b0a",
-        },
-        
       ],
       mobile: [
         {
@@ -100,36 +93,36 @@ export const AppProvider = (props) => {
       ],
       web: [
         {
-          title: "https://tik-tok-clone-abdo.netlify.app/",
-          description: "https://tik-tok-clone-abdo.netlify.app/",
+          title: "tik-tok-clone",
+          description: "tik-tok-clone",
           url: "https://tik-tok-clone-abdo.netlify.app/",
           image:
             "https://cdn.dribbble.com/users/1636225/screenshots/15155331/tiktok-clone-1600x1200.png",
         },
         {
-          title: "https://crypto-hunting-abdo.netlify.app/",
-          description: "https://crypto-hunting-abdo.netlify.app/",
+          title: "crypto-hunting",
+          description: "crypto-hunting",
           url: "https://crypto-hunting-abdo.netlify.app/",
           image:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2C8cwxezhOpvoQCPPYHkfnb0T0Suv3MTfw&usqp=CAU",
         },
         {
-          title: "https://youtube-clone-abdo.netlify.app/",
-          description: "https://youtube-clone-abdo.netlify.app/",
+          title: "youtube-clone",
+          description: "youtube-clone",
           url: "https://youtube-clone-abdo.netlify.app/",
           image:
             "https://reactjsexample.com/content/images/2022/06/Code-2022-18-51-54.jpg",
         },
         {
-          title: "https://estate-next-js.vercel.app/",
-          description: "https://estate-next-js.vercel.app/",
+          title: "Estate",
+          description: "Estate",
           url: "https://estate-next-js.vercel.app/",
           image:
             "https://fixthephoto.com/blog/UserFiles/real-estate-cover-photos-820x340.jpg",
         },
         {
-          title: "https://sala-sa.shop/",
-          description: "https://sala-sa.shop/",
+          title: "Sala-sa shop",
+          description: "Sala-sa shop",
           url: "https://sala-sa.shop/",
           image:
             "https://sala-sa.shop/wp-content/uploads/2023/02/2.png.webp",
@@ -193,31 +186,31 @@ export const AppProvider = (props) => {
           image:
             "https://midaismael.github.io/Restaurant/static/media/3.12c392d279429f82935c.jpg",
         },
+        // {
+        //   title: "https://container-eg.shop/",
+        //   description: "https://container-eg.shop/",
+        //   url: "https://container-eg.shop/",
+        //   image:
+        //     "https://container-eg.shop/wp-content/uploads/2023/05/324917916_879772270034122_7934994869216878925_n.jpg",
+        // },
         {
-          title: "https://container-eg.shop/",
-          description: "https://container-eg.shop/",
-          url: "https://container-eg.shop/",
-          image:
-            "https://container-eg.shop/wp-content/uploads/2023/05/324917916_879772270034122_7934994869216878925_n.jpg",
-        },
-        {
-          title: "https://movies-hub-abdo.netlify.app/",
-          description: "https://movies-hub-abdo.netlify.app/",
+          title: "Movies Hub",
+          description: "Movies Hub",
           url: "https://movies-hub-abdo.netlify.app/",
           image:
             "https://vijaysolution.com/wp-content/uploads/2023/05/All-Movies-Hub-download-APK-300MB-Bollywood-Hindi-1.jpg",
         },
+        // {
+        //   title: "Emart-clothes",
+        //   description:
+        //     "Emart-clothes is an online apparel store that uses React JS to provide customers with a dynamic and intuitive shopping experience. The website page has been designed to make it easy for customers to find the items they are looking for.",
+        //   url: "https://midaismael.github.io/emart-clothes/",
+        //   image:
+        //     "",
+        // },
         {
-          title: "Emart-clothes",
-          description:
-            "Emart-clothes is an online apparel store that uses React JS to provide customers with a dynamic and intuitive shopping experience. The website page has been designed to make it easy for customers to find the items they are looking for.",
-          url: "https://midaismael.github.io/emart-clothes/",
-          image:
-            "",
-        },
-        {
-          title: "https://quizhub-abdo.netlify.app/",
-          description: "https://quizhub-abdo.netlify.app/",
+          title: "Quiz hub",
+          description: "Quiz hub",
           url: "https://quizhub-abdo.netlify.app/",
           image:
             "https://quizhub-abdo.netlify.app/quiz.svg",
