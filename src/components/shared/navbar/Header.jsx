@@ -1,14 +1,16 @@
 import { Navbar, Nav, Container } from "react-bootstrap"
 import "./navbar.scss"
 import home from "../../../assets/imgs/Ellipse.png"
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom" 
 import { useState } from "react"
 
 const Header = () => {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(false)
+  
   const addClass = () => {
-    setIsActive((current) => !current);
-  };
+    setIsActive((current) => !current)
+  }
+
   return (
     <Navbar className="header" expand="md">
       <Container className={isActive ? "bg" : ""}>

@@ -1,6 +1,7 @@
 // Graphics
 import affter_effects from '../../../assets/svg/Graphic/affter-effects.svg'
 import audition from '../../../assets/svg/Graphic/audition.svg'
+import indesign from '../../../assets/svg/Graphic/indesign.svg'
 import gimp from '../../../assets/svg/Graphic/gimp.svg'
 import illustrator from '../../../assets/svg/Graphic/illustrator.svg'
 import lightroom from '../../../assets/svg/Graphic/lightroom.svg'
@@ -81,6 +82,7 @@ export const tools = {
     // Graphic
     affter_effects,
     audition,
+    indesign,
     gimp,
     illustrator,
     lightroom,
