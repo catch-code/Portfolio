@@ -5,13 +5,13 @@ import "./services.scss"
 
 import { toolImage } from "../tools/toolImages"
 
-import GraphicsAnimation from "../../../assets/lottie/Graphics.json";
-import UIUXAnimation from "../../../assets/lottie/UI-UX Design.json";
-import MobileAnimation from "../../../assets/lottie/Mobile Development.json";
-import FrontendAnimation from "../../../assets/lottie/Frontend Development.json";
-import BackendAnimation from "../../../assets/lottie/Backend Development.json";
-import AIAnimation from "../../../assets/lottie/AI.json";
-import TestingAnimation from "../../../assets/lottie/Testing.json";
+import GraphicsAnimation from "../../../assets/lottie/Graphics.json"
+import UIUXAnimation from "../../../assets/lottie/UI-UX Design.json"
+import MobileAnimation from "../../../assets/lottie/Mobile Development.json"
+import FrontendAnimation from "../../../assets/lottie/Frontend Development.json"
+import BackendAnimation from "../../../assets/lottie/Backend Development.json"
+import AIAnimation from "../../../assets/lottie/AI.json"
+import TestingAnimation from "../../../assets/lottie/Testing.json"
 
 function Services() {
   const servicesData = [
@@ -24,8 +24,8 @@ function Services() {
       ],
       tools: [
         {
-          name: "Adobe Audition",
-          icon: "audition",
+          name: "Adobe InDesign",
+          icon: "indesign",
         },
         {
           name: "Adobe Illustrator",
@@ -368,7 +368,7 @@ function Services() {
         height: 240,
       },
     },
-  ];
+  ]
 
   return (
     <div id="services" className="container my-5">
@@ -411,7 +411,7 @@ function Services() {
       ))
       }
     </div >
-  );
+  )
 }
 
-export default Services;
+export default Services

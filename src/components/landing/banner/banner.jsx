@@ -1,5 +1,5 @@
-import homeBanner from "../../../assets/imgs/homeBanner.gif";
-import "./banner.scss";
+import homeBanner from "../../../assets/imgs/homeBanner.gif"
+import "./banner.scss"
 function Banner() {
   return (
     <div className="bannerHomePage bg-white">
@@ -24,7 +24,7 @@ function Banner() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Banner;
+export default Banner

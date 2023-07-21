@@ -5,7 +5,6 @@ export const AppContext = createContext({
   appDispatch: () => {},
 });
 
-
 export const AppProvider = (props) => {
   const appInitialState = {
     theme: "dark",
@@ -13,19 +12,47 @@ export const AppProvider = (props) => {
     projects: {
       uiux: [
         {
-          title: "Movie App",
+          title: "Tasaly Flex",
           description: "",
-          url: "https://www.figma.com/proto/qCAgToNhQB0dkgW2nRQhl1/Movie-App?page-id=0%3A1&type=design&node-id=12-221&viewport=624%2C375%2C0.17&t=pWbvHgBw6Aqoqlbq-1&scaling=scale-down&starting-point-node-id=2%3A311&mode=design",
+          url: "https://www.behance.net/gallery/146845217/Tasaly-Flex-UIUX-Design",
           image:
-            "https://drive.google.com/file/d/1Ow-7XxKw8c-Mc_GVtSTYi00zvChddzIT/view?usp=sharing",
+            "https://mir-s3-cdn-cf.behance.net/projects/808/68f6f4146845217.Y3JvcCw4MDgsNjMyLDAsMA.png",
         },
         {
-          title: "Tap Cash",
-          description: "Smart Wallet",
+          title: "Hiring Truck Drivers",
+          description: "A hiring truck drivers UI design for websites",
+          url: "https://www.behance.net/gallery/168780343/A-hiring-truck-drivers-UI-design-for-websites",
+          image:
+            "https://mir-s3-cdn-cf.behance.net/projects/808/ba480c168780343.Y3JvcCwxMzA5LDEwMjQsNjQsMA.png",
+        },
+        {
+          title: "Tap Cash - landing page",
+          description: "Tab Cash is an e-wallet application represented in an Orange Digital Center Hackathon, which makes it easy to you to send and receive money, show your previous transactions, and an additional feature which is parent’s control.",
+          url: "https://www.behance.net/gallery/170466605/Tap-Cash-(E-wallet-)-Landing-page-ODC-Hackathon",
+          image:
+            "https://mir-s3-cdn-cf.behance.net/projects/808/62c554170466605.Y3JvcCwxMzA5LDEwMjQsNjQsMA.png",
+        },
+        {
+          title: "Tap Cash App",
+          description: "Tab Cash is an e-wallet application represented in an Orange Digital Center Hackathon, which makes it easy to you to send and receive money, show your previous transactions, and an additional feature which is parent’s control.",
           url: "https://www.figma.com/proto/Kt8yRtouY0rHIIrPjcbztV/Tab-Cash?page-id=0%3A1&type=design&node-id=183-1119&viewport=688%2C467%2C0.09&t=T6nnE04yCwggNMTy-1&scaling=min-zoom&starting-point-node-id=167%3A804&mode=design",
           image:
-            "https://drive.google.com/file/d/1Ow-7XxKw8c-Mc_GVtSTYi00zvChddzIT/view?usp=sharing",
+            "https://mir-s3-cdn-cf.behance.net/projects/808/b711f2170432403.Y3JvcCw5MjMsNzIyLDAsMA.png",
         },
+        {
+          title: "Time Management App",
+          description: "Time Management App",
+          url: "https://www.behance.net/gallery/169361441/Case-study-of-time-management-App",
+          image:
+            "https://mir-s3-cdn-cf.behance.net/projects/808/b9c95b169361441.Y3JvcCwyMzk3LDE4NzUsNDYyLDA.png",
+        },
+        {
+          title: "Movie App",
+          description: "",
+          url: "https://www.behance.net/gallery/170432403/E-Wallet-App-(Tap-Cash)-ODC-Hackathon",
+          image: "https://img.freepik.com/free-vector/display-template-with-clapperboard-glasses_79603-1244.jpg?w=1380&t=st=1689945417~exp=1689946017~hmac=e752a24a9c7101319e728f925638e86a937c47bfed42b7b13334373eac7d0b0a",
+        },
+        
       ],
       mobile: [
         {
@@ -87,25 +114,11 @@ export const AppProvider = (props) => {
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP2C8cwxezhOpvoQCPPYHkfnb0T0Suv3MTfw&usqp=CAU",
         },
         {
-          title: "https://quizhub-abdo.netlify.app/",
-          description: "https://quizhub-abdo.netlify.app/",
-          url: "https://quizhub-abdo.netlify.app/",
-          image:
-            "https://quizhub-abdo.netlify.app/quiz.svg",
-        },
-        {
           title: "https://youtube-clone-abdo.netlify.app/",
           description: "https://youtube-clone-abdo.netlify.app/",
           url: "https://youtube-clone-abdo.netlify.app/",
           image:
             "https://reactjsexample.com/content/images/2022/06/Code-2022-18-51-54.jpg",
-        },
-        {
-          title: "https://movies-hub-abdo.netlify.app/",
-          description: "https://movies-hub-abdo.netlify.app/",
-          url: "https://movies-hub-abdo.netlify.app/",
-          image:
-            "https://vijaysolution.com/wp-content/uploads/2023/05/All-Movies-Hub-download-APK-300MB-Bollywood-Hindi-1.jpg",
         },
         {
           title: "https://estate-next-js.vercel.app/",
@@ -115,49 +128,11 @@ export const AppProvider = (props) => {
             "https://fixthephoto.com/blog/UserFiles/real-estate-cover-photos-820x340.jpg",
         },
         {
-          title: "https://container-eg.shop/",
-          description: "https://container-eg.shop/",
-          url: "https://container-eg.shop/",
-          image:
-            "https://container-eg.shop/wp-content/uploads/2023/05/324917916_879772270034122_7934994869216878925_n.jpg",
-        },
-        {
           title: "https://sala-sa.shop/",
           description: "https://sala-sa.shop/",
           url: "https://sala-sa.shop/",
           image:
             "https://sala-sa.shop/wp-content/uploads/2023/02/2.png.webp",
-        },
-        {
-          title: "News",
-          description:
-            "The news website page with HTML, CSS and JavaScript is designed to be an easy-to-navigate source of information for customers. The home page provides a concise overview of the latest news stories, as well as links to other sections on the site such as sports, entertainment and business. Each section contains a list of headlines that can be clicked on in order to view more detailed articles about each topic. Additionally, users have access to search functions so they can quickly locate specific topics or keywords within the content available on this web page.",
-          url: "https://midaismael.github.io/news/",
-          image: "https://midaismael.github.io/news/images/02.jpg",
-        },
-        {
-          title: "Ecommerce-phone",
-          description:
-            "The Ecommerce-phone website page with React js is an innovative and efficient way to shop for the latest mobile phones. This web page allows customers to easily browse through a wide selection of top brands, compare features side by side, and purchase their desired phone in one convenient location. Customers can also access product reviews from other users before making their final decision. ",
-          url: "https://midaismael.github.io/ecommerce-phone/",
-          image:
-            "https://midaismael.github.io/ecommerce-phone/static/media/img1.aff43e06b85a6d64ae09.jpg",
-        },
-        {
-          title: "Restaurant",
-          description:
-            "The Restaurant website page with React js is an amazing way to create a modern and interactive web experience for customers. It provides the ability to quickly build dynamic, responsive user interfaces that can be used on any device or platform. With React js, developers have access to powerful tools such as state management, routing and data fetching which make creating complex applications much easier than before.",
-          url: "https://midaismael.github.io/Restaurant/",
-          image:
-            "https://midaismael.github.io/Restaurant/static/media/3.12c392d279429f82935c.jpg",
-        },
-        {
-          title: "Emart-clothes",
-          description:
-            "Emart-clothes is an online apparel store that uses React JS to provide customers with a dynamic and intuitive shopping experience. The website page has been designed to make it easy for customers to find the items they are looking for.",
-          url: "https://midaismael.github.io/emart-clothes/",
-          image:
-            "",
         },
         {
           title: "Landing-page: Dorsin",
@@ -194,6 +169,58 @@ export const AppProvider = (props) => {
           url: "https://midaismael.github.io/cafe-landing-page/",
           image:
             "https://screenshots.webflow.com/sites/607d3f3b88d1c85f6691eff2/20210419114759_246d885cbcec8bebf7bb651f8e928c78.png",
+        },
+        {
+          title: "News",
+          description:
+            "The news website page with HTML, CSS and JavaScript is designed to be an easy-to-navigate source of information for customers. The home page provides a concise overview of the latest news stories, as well as links to other sections on the site such as sports, entertainment and business. Each section contains a list of headlines that can be clicked on in order to view more detailed articles about each topic. Additionally, users have access to search functions so they can quickly locate specific topics or keywords within the content available on this web page.",
+          url: "https://midaismael.github.io/news/",
+          image: "https://midaismael.github.io/news/images/02.jpg",
+        },
+        {
+          title: "Ecommerce-phone",
+          description:
+            "The Ecommerce-phone website page with React js is an innovative and efficient way to shop for the latest mobile phones. This web page allows customers to easily browse through a wide selection of top brands, compare features side by side, and purchase their desired phone in one convenient location. Customers can also access product reviews from other users before making their final decision. ",
+          url: "https://midaismael.github.io/ecommerce-phone/",
+          image:
+            "https://midaismael.github.io/ecommerce-phone/static/media/img1.aff43e06b85a6d64ae09.jpg",
+        },
+        {
+          title: "Restaurant",
+          description:
+            "The Restaurant website page with React js is an amazing way to create a modern and interactive web experience for customers. It provides the ability to quickly build dynamic, responsive user interfaces that can be used on any device or platform. With React js, developers have access to powerful tools such as state management, routing and data fetching which make creating complex applications much easier than before.",
+          url: "https://midaismael.github.io/Restaurant/",
+          image:
+            "https://midaismael.github.io/Restaurant/static/media/3.12c392d279429f82935c.jpg",
+        },
+        {
+          title: "https://container-eg.shop/",
+          description: "https://container-eg.shop/",
+          url: "https://container-eg.shop/",
+          image:
+            "https://container-eg.shop/wp-content/uploads/2023/05/324917916_879772270034122_7934994869216878925_n.jpg",
+        },
+        {
+          title: "https://movies-hub-abdo.netlify.app/",
+          description: "https://movies-hub-abdo.netlify.app/",
+          url: "https://movies-hub-abdo.netlify.app/",
+          image:
+            "https://vijaysolution.com/wp-content/uploads/2023/05/All-Movies-Hub-download-APK-300MB-Bollywood-Hindi-1.jpg",
+        },
+        {
+          title: "Emart-clothes",
+          description:
+            "Emart-clothes is an online apparel store that uses React JS to provide customers with a dynamic and intuitive shopping experience. The website page has been designed to make it easy for customers to find the items they are looking for.",
+          url: "https://midaismael.github.io/emart-clothes/",
+          image:
+            "",
+        },
+        {
+          title: "https://quizhub-abdo.netlify.app/",
+          description: "https://quizhub-abdo.netlify.app/",
+          url: "https://quizhub-abdo.netlify.app/",
+          image:
+            "https://quizhub-abdo.netlify.app/quiz.svg",
         },
       ],
       // backend: [

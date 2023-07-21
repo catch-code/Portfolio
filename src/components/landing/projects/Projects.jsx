@@ -8,6 +8,7 @@ import * as ActionType from '../../../context/actions/app_action'
 function Projects() {
 
   const { appState, appDispatch } = useContext(AppContext)
+  
   const projectsData = [
     {
       title: "UI/UX Design",
@@ -38,7 +39,7 @@ function Projects() {
       </div>
       <div className="row align-items-center justify-content-between my-5 ">
         {projectsData.map((project, index) =>
-          <div className="col-lg-4 col-sm-12" key={index}>
+          <div className="col-lg-5 col-sm-12 my-3" key={index}>
             <h3 className="text-white d-block">{project.title}</h3>
             <div className="X-shape">
               <div className="rotate1"></div>
