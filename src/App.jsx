@@ -5,9 +5,9 @@ import { AppProvider } from "./context/context/app_context"
 
 import "./App.css"
 
-import Landing from "./components/landing/landing"
-import Projects from "./components/projects/projects"
-import Footer from "./components/shared/footer/footer"
+import Landing from "./components/landing/Landing"
+import Projects from "./components/projects/Projects"
+import Footer from "./components/shared/footer/Footer"
 import Header from "./components/shared/navbar/Header"
 
 const App = () => {

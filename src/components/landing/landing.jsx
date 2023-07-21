@@ -1,8 +1,8 @@
-import Banner from "./banner/banner"
-import Services from "./services/services"
-import Tools from "./tools/tools"
-import Contact from "./contact/contact"
-import Projects from "./projects/projects"
+import Banner from "./banner/Banner"
+import Services from "./services/Services"
+import Tools from "./Tools/Tools"
+import Contact from "./contact/Contact"
+import Projects from "./projects/Projects"
 
 const Landing = () => {
     return (
