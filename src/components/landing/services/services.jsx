@@ -13,7 +13,7 @@ import BackendAnimation from "../../../assets/lottie/Backend Development.json"
 import AIAnimation from "../../../assets/lottie/AI.json"
 import TestingAnimation from "../../../assets/lottie/Testing.json"
 
-function Services() {
+const Services = () => {
   const servicesData = [
     {
       title: "Graphic Design",

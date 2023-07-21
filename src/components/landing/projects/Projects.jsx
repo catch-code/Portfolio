@@ -5,10 +5,10 @@ import "./projects.scss"
 import { AppContext } from '../../../context/context/app_context'
 import * as ActionType from '../../../context/actions/app_action'
 
-function Projects() {
+const Projects = () => {
 
   const { appDispatch } = useContext(AppContext)
-  
+
   const projectsData = [
     {
       title: "UI/UX Design",

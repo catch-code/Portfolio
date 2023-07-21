@@ -6,7 +6,7 @@ import Card from "react-bootstrap/Card"
 import "./projects.scss"
 import { AppContext } from "../../context/context/app_context"
 
-function Projects() {
+const Projects = () => {
   const { appState, appDispatch } = useContext(AppContext)
 
   const handleSelect = (key) =>
