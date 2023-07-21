@@ -13,7 +13,7 @@ const Projects = () => {
     appDispatch({
       type: "SET_CATEGORY",
       payload: key,
-    });
+    })
 
   return (
     <div id="projects" className="container project my-5">

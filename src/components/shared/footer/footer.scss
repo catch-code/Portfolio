@@ -78,6 +78,7 @@ footer {
     }
 
     .down {
+        margin: auto;
         color: #05192D;
 
         /* Paragraph/Default */
@@ -85,20 +86,29 @@ footer {
         font-style: normal;
         font-weight: 400;
         line-height: 30px;
+        text-align: center;
     }
 }
 
 
-@media (max-width: 768px){
-    footer .top .catch-code .logo img{
+@media (max-width: 768px) {
+    footer .top .catch-code .logo img {
         display: block;
         margin: auto;
         max-width: 30%;
     }
+
+    footer .down {
+        flex-direction: column;
+    }
 }
 
-@media (max-width: 390px){
-    footer .top .catch-code .logo img{
+@media (max-width: 390px) {
+    footer .top .catch-code .logo img {
         max-width: 50%;
+    }
+
+    footer .down {
+        flex-direction: column;
     }
 }

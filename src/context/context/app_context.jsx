@@ -1,10 +1,11 @@
 /* eslint-disable react/prop-types */
-import { createContext, useReducer } from "react";
-import { AppReducer } from "../reducers/app_reducer";
+import { createContext, useReducer } from "react"
+import { AppReducer } from "../reducers/app_reducer"
+
 export const AppContext = createContext({
   appState: {},
   appDispatch: () => {},
-});
+})
 
 export const AppProvider = (props) => {
   const appInitialState = {
@@ -278,9 +279,9 @@ export const AppProvider = (props) => {
       //   },
       // ],
     },
-  };
+  }
 
-  const [appState, appDispatch] = useReducer(AppReducer, appInitialState);
+  const [appState, appDispatch] = useReducer(AppReducer, appInitialState)
 
   return (
     <AppContext.Provider
@@ -291,5 +292,5 @@ export const AppProvider = (props) => {
     >
       {props.children}
     </AppContext.Provider>
-  );
-};
+  )
+}
