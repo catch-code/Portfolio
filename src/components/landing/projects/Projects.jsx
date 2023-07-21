@@ -7,7 +7,7 @@ import * as ActionType from '../../../context/actions/app_action'
 
 function Projects() {
 
-  const { appState, appDispatch } = useContext(AppContext)
+  const { appDispatch } = useContext(AppContext)
   
   const projectsData = [
     {
