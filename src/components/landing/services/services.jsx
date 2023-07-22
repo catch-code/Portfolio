@@ -386,9 +386,9 @@ const Services = () => {
               ))}
             </div>
             <div className="text">
-              {service.description.map((d, index) => (
+              {/* {service.description.map((d, index) => (
                 <p key={index}>{d}</p>
-              ))}
+              ))} */}
             </div>
           </div>
           <div className="leftImage col-lg-6 col-sm-10">
