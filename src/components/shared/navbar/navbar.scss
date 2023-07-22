@@ -1,7 +1,10 @@
 .bg {
     background: #eeeeee;
 }
-
+.logo-img{
+    padding-top: 5px;
+    width: 70%;
+}
 .header {
     padding: 0;
     position: sticky;
@@ -67,6 +70,12 @@
 .header a.nav-link:hover::after,
 .header a.nav-link:hover::before {
     width: 100%;
+}
+
+@media (max-width: 392px){
+    .logo-img{
+        width: 50%;
+    }
 }
 
 @media (max-width: 768px) {
