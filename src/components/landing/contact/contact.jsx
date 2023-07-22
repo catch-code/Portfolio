@@ -27,7 +27,7 @@ const Contact = () => {
     }
 
     return (
-        <div id="contact" className="container contact p-5 my-5 d-flex bg-white flex-column align-items-center">
+        <div id="contact" className="container contact p-1 py-5 my-5 d-flex bg-white flex-column align-items-center">
             <h3>We are Open for talking</h3>
             <h4>Fill the form below</h4>
             <Form
@@ -35,12 +35,14 @@ const Contact = () => {
                 onSubmit={handleSubmit}>
                 <Form.Group className="col-sm-12 my-2 p-1 d-flex justify-content-between" controlId='nameController'>
                     <Form.Control
+                        className="w-lg-50 w-sm-100"
                         required
                         type="text"
                         placeholder="First Name"
                         value={firstName}
                         onChange={e => setFirstName(e.target.value)} />
                     <Form.Control
+                        className="w-lg-50 w-sm-100"
                         required
                         type="text"
                         placeholder="Last Name"
@@ -49,12 +51,14 @@ const Contact = () => {
                 </Form.Group>
                 <Form.Group className="col-sm-12 my-2 p-1 d-flex justify-content-between" controlId='subjectController'>
                     <Form.Control
+                        className="w-lg-50 w-sm-100"
                         required
                         type="Subject"
                         placeholder="Subject"
                         value={subject}
                         onChange={e => setSubject(e.target.value)} />
                     <Form.Control
+                        className="w-lg-50 w-sm-100"
                         required
                         type="email"
                         placeholder="Email address"
@@ -63,6 +67,7 @@ const Contact = () => {
                 </Form.Group>
                 <Form.Group className="my-2 p-1" controlId='messageController'>
                     <Form.Control
+                        className="w-100"
                         required
                         as="textarea"
                         placeholder="Enter your message"
@@ -70,7 +75,7 @@ const Contact = () => {
                         onChange={e => setMessage(e.target.value)} />
                 </Form.Group>
                 <Button
-                    className='mt-4 fs-sm-6'
+                    className='mt-4 p-3 w-lg-50 w-sm-100 fs-sm-6'
                     type="submit">
                     Send message
                 </Button>
