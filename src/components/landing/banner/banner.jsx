@@ -30,7 +30,7 @@ const Banner = () => {
                   preserveAspectRatio: "xMidYMid slice",
                 },
               }}
-              width={350}
+              width={330}
               height={300}
               isStopped={false}
               isPaused={false}

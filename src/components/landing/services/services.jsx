@@ -54,7 +54,7 @@ const Services = () => {
       ],
       animation: {
         data: GraphicsAnimation,
-        width: 350,
+        width: 330,
         height: 200,
       },
     },
@@ -85,7 +85,7 @@ const Services = () => {
       ],
       animation: {
         data: UIUXAnimation,
-        width: 350,
+        width: 330,
         height: 220,
       },
     },
@@ -144,7 +144,7 @@ const Services = () => {
       ],
       animation: {
         data: MobileAnimation,
-        width: 350,
+        width: 330,
         height: 275,
       },
     },
@@ -223,7 +223,7 @@ const Services = () => {
       ],
       animation: {
         data: FrontendAnimation,
-        width: 350,
+        width: 330,
         height: 300,
       },
     },
@@ -294,7 +294,7 @@ const Services = () => {
       ],
       animation: {
         data: BackendAnimation,
-        width: 350,
+        width: 330,
         height: 300,
       },
     },
