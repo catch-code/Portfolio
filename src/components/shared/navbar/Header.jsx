@@ -14,7 +14,7 @@ const Header = () => {
     <Navbar className="header" expand="md">
       <Container className={isActive ? "bg" : ""}>
         <Navbar.Brand href="/">
-          <img className="w-50 w-sm-50" src={home} alt="home" />
+          <img className="w-75 w-sm-50" src={home} alt="home" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-white px-2">
           <span className="navbar-toggler-icon bg-white" onClick={addClass}></span>
