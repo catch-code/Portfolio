@@ -5,7 +5,7 @@ import "./banner.scss"
 const Banner = () => {
   return (
     <div className="bannerHomePage bg-white">
-      <div className="banner" id="home">
+      <div className="container banner" id="home">
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-6 col-sm-12">
             <div className="textContent">
