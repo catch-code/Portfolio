@@ -27,12 +27,8 @@ const Contact = () => {
     }
 
     return (
-<<<<<<< HEAD
         <div className='container'>
         <div id="contact" className="contact p-5 my-5 d-flex bg-white flex-column align-items-center">
-=======
-        <div id="contact" className="container contact p-1 py-5 my-5 d-flex bg-white flex-column align-items-center">
->>>>>>> ae9ad12ca4ebf866c50e369779c4bd4b6819a90a
             <h3>We are Open for talking</h3>
             <h4>Fill the form below</h4>
             <Form
